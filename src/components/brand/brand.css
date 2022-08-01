@@ -1,0 +1,27 @@
+.ptech__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: var(--font-family);
+    color: #0a5383;
+    font-size: 100px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ptech__brand div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo_img{
+    width: 400px;
+}
