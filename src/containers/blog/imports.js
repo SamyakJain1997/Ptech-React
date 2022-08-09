@@ -6,7 +6,7 @@ import blog05 from '../../assets/blog05.png';
 import blog06 from '../../assets/blog06.png';
 import blog07 from '../../assets/blog07.png';
 import blog08 from '../../assets/blog08.png';
-import blog09 from '../../assets/blog09.png';
+import blog09 from '../../assets/blog09-1.png';
 import blog10 from '../../assets/blog10.png';
 
 export {

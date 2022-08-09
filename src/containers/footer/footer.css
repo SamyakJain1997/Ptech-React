@@ -1,26 +1,26 @@
 .ptech__footer {
     display: flex;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 
-    background: #d0d9f2;
+    background: #1d3271;
 }
-.footer__heading{
+/* .footer__heading{
     color: var(--color-subtext);
 }
+ */
 
-
-.ptech__footer-heading {
+/* .ptech__footer-heading {
     width: 100%;
     text-align: center;
     cursor: pointer;
     margin-bottom: 0.1rem;
     margin-top: -3rem;
-}
+} */
 
-.ptech__footer-heading h1 {
+/* .ptech__footer-heading h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 64px;
@@ -35,17 +35,20 @@
     padding: 0.75rem;
     border: 1px solid rgb(0, 0, 0);
     text-align: center;
-
     margin-bottom: 0.5rem;
     cursor: pointer;
-}
-
+} */
+/* 
 .ptech__footer-btn p {
+    margin-top: 0.5rem;
     font-size: 30px;
     font-family: var(--font-family);
     line-height: 21px;
     color: black;
     word-spacing: 2px;
+} */
+.ptech__footer-btn {
+    cursor: pointer;
 }
 
 .ptech__footer-links {
@@ -54,15 +57,15 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    color: black;
-    width: 100%;
+    color: #fff;
+    width: 98%;
     text-align: left;
 }
 
 .ptech__footer-links div {
     width: 250px;
-    margin: 0.75rem;
-    color: black;
+    /* margin: 0.75rem; */
+    color: #fff;
     margin-top: 1rem;
 }
 
@@ -72,20 +75,24 @@
 }
 
 .ptech__footer-links_logo img {
-    width: 150px;
-    height: 90px;
-
-    margin-bottom: 0.75rem;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 2rem; */
+    margin-left: -2rem;
+    margin-bottom: 2rem;
+    /* margin-bottom: 0.75rem; */
 }
 
 .ptech__footer-links_logo p {
+    /* margin-top: 6rem; */
     font-family: var(--font-family);
     font-size: 15px;
     line-height: 20px;
-    color: #000;
+    color: #fff;
 }
 
 .ptech__footer-links_div {
+    margin-top: 6rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -95,7 +102,8 @@
     font-size: 24px;
     line-height: 17px;
     font-family: var(--font-family);
-    color: black;
+    color: #fff;
+    margin-top: 2rem;
 
     margin-bottom: 0.9rem;
 }
@@ -104,10 +112,13 @@
     font-size: 15px;
     line-height: 20px;
     font-family: var(--font-family);
-    color: black;
+    color: #fff;
 
     margin: 0.5rem 0;
     cursor: pointer;
+}
+.ptech__footer-links_div .social-meida-text p{
+    font-size: 20px;
 }
 
 @media screen and (max-width: 850px) {

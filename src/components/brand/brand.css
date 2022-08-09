@@ -1,27 +1,66 @@
-.ptech__brand {
-    display: flex;
-    flex-wrap: wrap;
+.brand{
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.brand h1{
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
 }
-.heading{
-    font-family: var(--font-family);
-    color: #0a5383;
-    font-size: 100px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.ptech__brand div {
-    display: flex;
+.brand1 h1{
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
+.brand2 h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.brand div img{
+    height: 30vh;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.brand1,
+.brand2{
+    display: none;
+}
+.brand1 div img{
+    height: 30vh;
+    width: 70%;
+    margin-left: 10%;
+}
+.brand2 div img{
+    height: 30vh;
+    width: 70%;
+    margin-left: 10%;
 
-.logo_img{
-    width: 400px;
+}
+ @media screen and (max-width: 1350px){
+    .brand,
+    .brand2{
+        display: none;
+    }
+    .brand1{
+        display: block;
+    }
+}
+@media screen and (max-width: 700px){
+    .brand,
+    .brand1{
+        display: none;
+    }
+    .brand2{
+        display: block;
+    }
 }

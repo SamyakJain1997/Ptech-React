@@ -1,8 +1,12 @@
 import React, { useRef } from 'react';
+// import React from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
-// import './contact.css';
-import styled from 'styled-components';
+import './contact.css';
+import { BsFillMapFill, BsFillTelephoneForwardFill } from 'react-icons/bs';
+import { AiTwotoneMail } from 'react-icons/ai';
+
 
 // npm i @emailjs/browser
 
@@ -44,85 +48,81 @@ const Contact = () => {
   };
 
   return (
-    <StyledContactForm>
-      <form ref={form} onSubmit={sendEmail} id="contact">
-        <label htmlFor="btn-check5" className="btn">Name
-          <input className="input" type="text" name="user_name" />
-        </label>
-        <label htmlFor="btn-check5" className="btn">Email
-          <input className="textarea" type="email" name="user_email" />
-        </label>
-        <label htmlFor="btn-check5" className="btn">Message
-          <textarea className="textarea" name="message" />
-        </label>
-        <input className="submit" type="submit" value="Send" />
-      </form>
-    </StyledContactForm>
+    // <StyledContactForm>
+    //   <form ref={form} onSubmit={sendEmail} id="contact">
+    //     <label htmlFor="btn-check5" className="btn">Name
+    //       <input className="input" type="text" name="user_name" />
+    //     </label>
+    //     <label htmlFor="btn-check5" className="btn">Email
+    //       <input className="textarea" type="email" name="user_email" />
+    //     </label>
+    //     <label htmlFor="btn-check5" className="btn">Message
+    //       <textarea className="textarea" name="message" />
+    //     </label>
+    //     <input className="submit" type="submit" value="Send" />
+    //   </form>
+    // </StyledContactForm>
+    <section className="contact">
+      <div className="content">
+        <h2>Contact Us</h2>
+        <p>LEADING PROVIDER OF TELECOM SERVICES & SOLUTIONS FOR WIRELESS NETWORKS WITH IN-HOUSE NETWORK ANALYTICS SOFTWARE & GLOBAL PRESENCE STRONG MULTI-VENDOR & MULTI-TECHNOLOGIES EXPERIENCE IN NETWORK PLANNING, OPTIMIZATION & END TO END NETWORK MANAGED SERVICES</p>
+      </div>
+      <div className="container">
+        <div className="contactInfo">
+          <div className="box">
+            <div className="icon">
+            <BsFillMapFill size={27} />
+            </div>
+            <div className="text">
+              <h3>Address</h3>
+              <p>Corporate and Registered office.<br /> PADHI TECHNOLOGIES PVT.LTD., N/3-458,IRC VILLAGE,<br />NAYAPALLI, BHUBANESWAR,KHORDHA PIN-751015</p>
+               
+            </div>
+          </div>
+          <div className="box">
+            <div className="icon">
+            <AiTwotoneMail size={27}/>
+            </div>
+            <div className="text">
+              <h3>Email</h3>
+              <p>info@ptechindia.com</p>
+               
+            </div>
+          </div>
+          <div className="box">
+            <div className="icon">
+            <BsFillTelephoneForwardFill size={27} />
+            </div>
+            <div className="text">
+              <h3>Phone</h3>
+              <p>+91 8763425986</p>
+               
+            </div>
+          </div>
+        </div>
+        <div className="contactForm">
+          <form ref={form} onSubmit={sendEmail}>
+            <h2>Send Message</h2>
+            <div className="inputBox">
+              <input type="text" name="user_name" required />
+              <span>Full Name</span>
+            </div>
+            <div className="inputBox">
+              <input type="text" name="user_email" required />
+              <span>Email</span>
+            </div>
+            <div className="inputBox">
+              <textarea type="text" name="message" required />
+              <span>Type Your Message...</span>
+              <div className="inputBox">
+              <input type="submit" name="" value="Send"/>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   );
 };
 
 export default Contact;
-
-// Styles
-const StyledContactForm = styled.div`
-
-  form {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-left: 30%;
-    flex-direction: column;
-    width: 40%;
-    font-size: 16px;
-    background: #8cb5df;
-    
-  input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-
-  textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-
-  label {
-      margin-top: 1rem;
-      float: inline-start;
-    }
-
-  input[type="submit"] {
-      max-height: 70px;
-      min-height: 70px;
-      margin-top: 2rem;
-      cursor: pointer;
-      background: #8cb5df;
-      color: #5078e3;
-      font-size: 30px;
-      font-weight: 500;
-      border: 80px;
-    }
-
-  input[type="submit"]:hover{
-      color: black;
-    }
-  }
-  
-`;
