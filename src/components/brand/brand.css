@@ -1,26 +1,89 @@
+.branding{
+    display: flex;
+    flex-direction: column;
+}
 .brand{
     overflow: scroll;
     overflow-x: hidden;
     margin-bottom: 2rem;
     margin-left: 2rem;
 }
+.brand .bar{
+    width: 100px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-left: 17%; */
+    /* margin-top: -1.5rem; */
+    margin-bottom: 0.25rem;
+    margin-left: 3rem;
+
+}
+.brand1 .bar{
+    width: 100px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-left: 17%; */
+    /* margin-top: -1.5rem; */
+    margin-bottom: 0.25rem;
+    margin-left: 6rem;
+
+}
+.brand2 .bar{
+    width: 100px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-left: 17%; */
+    /* margin-top: -1.5rem; */
+    margin-bottom: 0.25rem;
+    margin-left: 5rem;
+
+}
+.brand3 .bar{
+    width: 100px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-left: 17%; */
+    /* margin-top: -1.5rem; */
+    margin-bottom: 0.25rem;
+    margin-left: 3rem;
+
+}
+
 .brand h1{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 3rem;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    flex: 1;
+    margin-left: 3rem;
 }
 .brand1 h1{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 3rem;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    flex: 1;
+    margin-left: 6rem;
 }
 .brand2 h1{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 3rem;
+    font-size: 46px;
+    line-height: 52px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    flex: 1;
+    margin-left: 5rem;
+}
+.brand3 h1{
+    font-size: 34px;
+    line-height: 42px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    flex: 1;
+    margin-left: 3rem;
 }
 .brand div img{
     height: 30vh;
@@ -32,23 +95,31 @@
     width: 0px;
 }
 .brand1,
-.brand2{
+.brand2,
+.brand3{
     display: none;
 }
 .brand1 div img{
-    height: 30vh;
+    height: 25vh;
     width: 70%;
     margin-left: 10%;
 }
 .brand2 div img{
-    height: 30vh;
+    height: 20vh;
+    width: 70%;
+    margin-left: 10%;
+
+}
+.brand3 div img{
+    height: 15vh;
     width: 70%;
     margin-left: 10%;
 
 }
  @media screen and (max-width: 1350px){
     .brand,
-    .brand2{
+    .brand2,
+    .brand3{
         display: none;
     }
     .brand1{
@@ -57,10 +128,22 @@
 }
 @media screen and (max-width: 700px){
     .brand,
-    .brand1{
+    .brand1,
+    .brand3{
         display: none;
     }
     .brand2{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .brand,
+    .brand1,
+    .brand2{
+        display: none;
+    }
+    .brand3{
         display: block;
     }
 }

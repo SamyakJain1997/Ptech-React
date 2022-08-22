@@ -29,15 +29,25 @@ export default class PauseOnHover extends Component {
     var settings2 = {
       dots: false,
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: true
+    };
+    var settings3 = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
       pauseOnHover: true
     };
     return (
-      <div>
+      <div className="branding">
       <div className="brand">
+        <div className="bar" />
         <h1 className="gradient__text">Our Partners</h1>
         <Slider {...settings}>
           <div>
@@ -73,6 +83,7 @@ export default class PauseOnHover extends Component {
         </Slider>
       </div>
       <div className="brand1">
+      <div className="bar" />
       <h1 className="gradient__text">Our Partners</h1>
       <Slider {...settings1}>
         <div>
@@ -108,8 +119,45 @@ export default class PauseOnHover extends Component {
       </Slider>
     </div>
     <div className="brand2">
-      <h1>Our Partners</h1>
+    <div className="bar" />
+      <h1 className="gradient__text">Our Partners</h1>
       <Slider {...settings2}>
+        <div>
+          <img src={crousel1} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel2} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel3} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel4} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel5} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel6} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel7} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel8} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel9} alt="slide" />
+        </div>
+        <div>
+          <img src={crousel10} alt="slide" />
+        </div>
+      </Slider>
+    </div>
+    <div className="brand3">
+    <div className="bar" />
+      <h1 className="gradient__text">Our Partners</h1>
+      <Slider {...settings3}>
         <div>
           <img src={crousel1} alt="slide" />
         </div>

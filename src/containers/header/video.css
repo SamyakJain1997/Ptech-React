@@ -5,74 +5,116 @@
     height: 100%;
     width: 100%;
 }
+
 .banner caption p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
     position: absolute;
-    font-size: 20px;
-    bottom: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    bottom: 35%;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.073);
     color:#fff;
+    letter-spacing: 5px;
+    /* word-spacing: px; */
     /* box-shadow: 5px 5px 5px rgba(29,50,113,0.5); */
 }
 .banner caption p span{
-    font-size: 60px;
+    font-size: 50px;
 }
 
-@media screen and (max-width: 1550px){
+@media screen and (max-width: 1450px){
     .banner caption p{
-        bottom: 40%;
-    }
-    .banner caption p span{
-        font-size: 55px;
+        bottom: 30%;
     }
 }
- @media screen and (max-width: 1450px){
+@media screen and (max-width: 1350px){
     .banner caption p{
-        bottom: 40%;
-        font-size: 20px;
+        bottom: 35%;
+        font-size: 15px;
+        letter-spacing: 4px;
+        line-height: 35px;
     }
     .banner caption p span{
-        font-size: 55px;
+        font-size: 30px;
+        /* margin-bottom: -3%; */
+    }
+}
+@media screen and (max-width: 1080px){
+    .banner caption p{
+        bottom: 30%;
+        font-size: 10px;
+        letter-spacing: 3px;
+        line-height: 30px;
+    }
+    .banner caption p span{
+        font-size: 30px;
+        /* margin-bottom: -3%; */
     }
 }
 @media screen and (max-width: 950px){
     .banner caption p{
         bottom: 35%;
-        font-size: 18px;
+        font-size: 10px;
+        letter-spacing: 3px;
+        line-height: 30px;
     }
     .banner caption p span{
-        font-size: 50px;
+        font-size: 30px;
+        /* margin-bottom: -3%; */
     }
 }
 @media screen and (max-width: 700px){
     .banner caption p{
-        bottom: 30%;
-        font-size: 15px;
+        bottom: 35%;
+        font-size: 8px;
+        letter-spacing: 3px;
+        line-height: 20px;
     }
     .banner caption p span{
-        font-size: 40px;
+        font-size: 20px;
+        /* margin-bottom: -3%; */
     }
 }
 @media screen and (max-width: 590px){
     .banner caption p{
         bottom: 30%;
-        font-size: 12px;
+        font-size: 8px;
+        letter-spacing: 3px;
+        line-height: 20px;
     }
     .banner caption p span{
-        font-size: 30px;
+        font-size: 20px;
+        /* margin-bottom: -3%; */
     }
 }
 @media screen and (max-width: 400px){
     .banner caption p{
-        bottom: 20%;
-        font-size: 10px;
+        bottom: 40%;
+        font-size: 9px;
+        letter-spacing: 1px;
+        line-height: 10px;
     }
     .banner caption p span{
-        font-size: 25px;
+        font-size: 20px;
+        /* margin-bottom: -3%; */
     }
 }
 @media screen and (max-width: 300px){
     .banner caption p{
-        bottom: 15%;
-        font-size: 8px;
+        bottom: 30%;
+        font-size: 9px;
+        letter-spacing: 1px;
+        line-height: 10px;
+    }
+    .banner caption p span{
+        font-size: 20px;
+        /* margin-bottom: -3%; */
     }
 }

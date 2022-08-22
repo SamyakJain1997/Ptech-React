@@ -12,7 +12,7 @@
 }
 
 .navbar.active{
-    background-color: rgb(239, 242, 253);
+    background-color: #ffffffec;
     box-shadow: 0px 0px 15px rgba(0,0, 0,0.4);
 }
 
@@ -25,7 +25,7 @@
 
 .ptech__navbar-links_logo {
     justify-content: flex-start;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .ptech__navbar-links_logo img {
@@ -40,7 +40,7 @@
 
 .ptech__navbar-links_container p,
 .ptech__navbar-menu_container p {
-    color: #0c2155;
+    color: #000000;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 17px;
@@ -51,7 +51,7 @@
     cursor: pointer;
 }
 .ptech__navbar-service_container p{
-    color: #0c2155;
+    color: #ffffff;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 19px;
@@ -75,9 +75,9 @@
 .ptech__navbar-service p{
     margin-left: -2rem;
     margin-right: -1rem;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 25px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -91,11 +91,11 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: rgb(199, 214, 255);
+    background: #eff0ffe7;
     padding: 2rem;
     position: absolute;
     right: 0;
-    top: 40px;
+    top: 60px;
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
@@ -107,7 +107,7 @@
     align-items: flex-start;
     flex-direction: column;
     text-align: start;
-    background: rgb(199, 214, 255);
+    background: #0d2c7ce7;
     padding: 1rem;
     position: absolute;
     right: -10rem;
@@ -151,15 +151,15 @@
     }
     .ptech__navbar-service_container{
         display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    text-align: end;
-    background: rgb(140, 169, 251);
+    text-align: start;
+    background: #0d2c7cef;
     padding: 1rem;
     position: absolute;
     right: 7.5rem;
-    top: 40px;
+    top: 60px;
     margin-top: -2.5rem;
     min-width: 400px;
     border-radius: 5px;
@@ -197,27 +197,27 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    text-align: center;
-    background: rgb(140, 169, 251);
-    padding: 1rem;
+    text-align: start;
+    background: #0d2c7ce7;
+    /* padding: 1rem; */
     position: absolute;
     right: 7.5rem;
-    top: 40px;
+    top: 60px;
     margin-top: -2.5rem;
-    min-width: 200px;
+    min-width: 350px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
     }
 
     .ptech__navbar-service_container p{
-        color: #0c2155;
+        color: #ffffff;
         font-family: var(--font-family);
         font-weight: 400;
         font-size: 15px;
-        line-height: 25px;
+        line-height: 30px;
         text-transform: capitalize;
     
-        margin: 0.7rem 1rem;
+        margin: 0 1rem;
         cursor: pointer;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './service-des.css';
 // import Network from '../../assets/network.jpg';
-import blog01 from '../../assets/blog01.png';
+import blog01 from '../../assets/testimg.png';
 
 const network = () => {
   return (
