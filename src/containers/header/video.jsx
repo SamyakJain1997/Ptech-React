@@ -9,9 +9,11 @@ const video = () => {
   return (
     <div className="banner">
         <div className="position-relative">
-            <video className="video" src={intro} loop autoPlay muted />
+        <a href="/aboutus"><video className="video" src={intro} loop autoPlay muted /></a>
             <div>
+            <a href="/aboutus">
             <caption><img className="image" src={logo} alt="" /><p><span>DISCOVER PTECH</span><br />LEADING PROVIDER OF TELECOM SERVICES & SOLUTIONS FOR WIRELESS NETWORKS WITH IN-HOUSE NETWORK ANALYTICS SOFTWARE & GLOBAL PRESENCE  STRONG MULTI-VENDOR & MULTI-TECHNOLOGIES EXPERIENCE  IN NETWORK PLANNING, OPTIMIZATION & END TO END NETWORK MANAGED SERVICES.</p></caption>
+            </a>
             </div>
         </div>
     </div>

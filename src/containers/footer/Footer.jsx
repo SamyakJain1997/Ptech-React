@@ -10,17 +10,9 @@ const Footer = () => {
 
   return (
     <div className="ptech__footer section__padding">
-      {/* <div className="ptech__footer-heading" onClick={() => navigate('/contact')}>
-        <h1 className="footer__heading">Click here to step in to the future before others!!!</h1>
-      </div> */}
-
-      {/* <div className="ptech__footer-btn" onClick={() => navigate('/contact')}>
-        <p>Contact Us</p>
-      </div> */}
-
       <div className="ptech__footer-links">
         <div className="ptech__footer-links_logo">
-          <img src={ptechLogo} alt="ptech_logo" />
+        <a href="/home"><img src={ptechLogo} alt="ptech_logo" /></a>
           <p>PTECH Pvt. Ltd (Padhi Technologies Pvt Ltd) is a well-established sub vendor company in telecom sector, We are a leading Network Planning and Optimization Company.</p>
         </div>
         <div className="ptech__footer-links_div">
@@ -36,12 +28,11 @@ const Footer = () => {
         </div>
         <div className="ptech__footer-links_div">
           <h4>Our Policy</h4><br />
-          <p onClick={() => navigate('/ourpolicy')}>Quality Policy</p>
-          <p onClick={() => navigate('/environmentpolicy')}>Environment Policy</p>
-          {/* <p>Contact</p> */}
+          <p><a href="/ourpolicy">Quality Policy</a></p>
+          <p><a href="/environmentpolicy">Environment Policy</a></p>
         </div>
         <div className="ptech__footer-links_div">
-          <h4 className="ptech__footer-btn" onClick={() => navigate('/contact')}>Get in touch</h4>
+          <h4 className="ptech__footer-btn" onClick={() => navigate('/contact')}><a href="/contact">Get in touch</a></h4>
           <p className="contact-address">Corporate and Registered office. PADHI TECHNOLOGIES PVT.LTD., N/3-458,IRC VILLAGE,NAYAPALLI, BHUBANESWAR,KHORDHA PIN-751015</p>
           <p>+91 8763425986</p>
           <p>info@ptechindia.com</p>

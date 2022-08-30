@@ -3,7 +3,7 @@ export { default as Brand } from './brand/Brand';
 export { default as Feature } from './feature/Feature';
 export { default as Navbar } from './navbar/Navbar';
 export { default as Contact } from './contactme/contact';
-export { default as Partners } from './Partners/partners';
+// export { default as Partners } from './Partners/partners';
 export { default as Ourpolicy } from './Policy/Ourpolicy';
 export { default as Environmentpolicy } from './Policy/Environmentpolicy';
 export { default as Network } from './Service-des/network';

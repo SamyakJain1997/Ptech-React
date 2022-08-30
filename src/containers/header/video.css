@@ -85,7 +85,7 @@
 @media screen and (max-width: 590px){
     .banner caption p{
         bottom: 30%;
-        font-size: 8px;
+        font-size: 10px;
         letter-spacing: 3px;
         line-height: 20px;
     }

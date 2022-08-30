@@ -11,19 +11,19 @@ export default class PauseOnHover extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2000,
       pauseOnHover: true
     };
     var settings1 = {
       dots: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2000,
       pauseOnHover: true
     };
     var settings2 = {
@@ -32,7 +32,7 @@ export default class PauseOnHover extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2000,
       pauseOnHover: true
     };
     var settings3 = {
@@ -41,7 +41,7 @@ export default class PauseOnHover extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2000,
       pauseOnHover: true
     };
     return (

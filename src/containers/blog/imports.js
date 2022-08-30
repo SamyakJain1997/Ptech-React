@@ -1,23 +1,23 @@
-import blog01 from '../../assets/blog01.png';
-import blog02 from '../../assets/blog02.png';
-import blog03 from '../../assets/blog03.png';
-import blog04 from '../../assets/blog04.png';
-import blog05 from '../../assets/blog05.png';
-import blog06 from '../../assets/blog06.png';
-import blog07 from '../../assets/blog07.png';
-import blog08 from '../../assets/blog08.png';
-import blog09 from '../../assets/blog09-1.png';
-import blog10 from '../../assets/blog10.png';
+import blog001 from '../../assets/blog001.png';
+import blog002 from '../../assets/blog002.png';
+import blog003 from '../../assets/blog003.png';
+import blog004 from '../../assets/blog004.png';
+import blog005 from '../../assets/blog005.png';
+import blog006 from '../../assets/blog006.png';
+import blog007 from '../../assets/blog007.png';
+import blog008 from '../../assets/blog008.png';
+import blog009 from '../../assets/blog009.png';
+import blog010 from '../../assets/blog010.png';
 
 export {
-  blog01,
-  blog02,
-  blog03,
-  blog04,
-  blog05,
-  blog06,
-  blog07,
-  blog08,
-  blog09,
-  blog10,
+  blog001,
+  blog002,
+  blog003,
+  blog004,
+  blog005,
+  blog006,
+  blog007,
+  blog008,
+  blog009,
+  blog010,
 };

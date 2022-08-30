@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { Footer, Blog, Aboutus, Features, Whatptech, Header, Video } from './containers';
-import { Navbar, Network, Rfplanning, Contact, Partners, Ourpolicy, Environmentpolicy, Automation, DataCenter, Networkoperation, ProductOffer, ResourceManage, RfOptimization, SolutionOffer, TransmissonPlan,  Brand} from './components';
+import { Navbar, Network, Rfplanning, Contact, Ourpolicy, Environmentpolicy, Automation, DataCenter, Networkoperation, ProductOffer, ResourceManage, RfOptimization, SolutionOffer, TransmissonPlan,  Brand} from './components';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css';
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/home" element={<><Video/><Header /><Blog /><Brand/></>} />
         <Route  path="/wptech" element={<><Whatptech /></>} />
         <Route  path="/Features" element={<><Features /></>} />
-        <Route  path="/brand" element={<><Partners /></>} />
+        {/* <Route  path="/brand" element={<><Partners /></>} /> */}
         <Route  path="/aboutus" element={<><Aboutus /></>} />
         <Route  path="/blog" element={<><Blog /></>} />
         <Route  path="/contact" element={<><Contact /></>} />

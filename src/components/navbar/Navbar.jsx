@@ -57,7 +57,9 @@ useEffect(() => {
   return (
     <div className={navbar ? "navbar active" : "navbar"}>
         <div className="ptech__navbar-links_logo">
+        <a href="/home">
           <img src={logo} alt="" />
+        </a>
         </div>
       <div className="ptech__navbar-links">
         <div ref={mainRef} className="ptech__navbar-links_container">
@@ -83,6 +85,7 @@ useEffect(() => {
         )}
       </div></p>
            <p><a href="/features">Work Commitment</a></p>
+           <p><a href="/features">Blog</a></p>
           {/* <p><a href="/brand">partners</a></p> */}
           <p><a href="/contact">Contact Us</a></p>
 
@@ -117,6 +120,7 @@ useEffect(() => {
         )}
                 </div></p>
             <p><a href="/features">Work Commitment</a></p>
+            <p><a href="/features">Blog</a></p>
             {/* <p><a href="/brand">partners</a></p> */}
             <p><a href="/contact">Contact Us</a></p>
           </div>
