@@ -1,5 +1,5 @@
 .resourcemanage_description-banner img{
-    height: 65vh;
+    height: 75vh;
     width: 100%;
 }
 .resourcemanage_description-banner caption p h1{
@@ -7,13 +7,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 50vh;
     position: absolute;
     font-size: 75px;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 90px;
     bottom: 50%;
+    border-radius: 15px;
     text-align: center;
+    background-color: rgba(58, 26, 186, 0.5);
     color:#fff;
     letter-spacing: 5px;
 }
@@ -59,3 +60,136 @@
     background-color: rgb(29, 36, 137, 0.8);
 }
 
+
+@media screen and (max-width: 1350px){
+    .resourcemanage_description-banner caption p h1{
+        font-size: 65px;
+        line-height: 85px;
+
+        }
+    }
+
+@media screen and (max-width: 1150px){
+    .resourcemanage_description-banner img{
+        height: 55vh;
+    }
+    .resourcemanage_description-banner caption p h1{
+        line-height: 75px;
+        font-size: 55px;
+        }
+    }
+
+
+@media screen and (max-width: 980px){
+    .resourcemanage_description-banner caption p h1{
+                font-size: 45px;
+                line-height: 65px;
+
+        }
+        .resourcemanage-des-container{
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1rem;
+            margin-left: -1rem;
+        }
+        .resourcemanage_description_data {
+            font-size: 15px;
+        }
+        .resourcemanage_description_data_heading{
+            font-size: 18px;
+        }
+        .resourcemanage-des-container ul{
+            font-size: 15px;
+        }
+    }
+ @media screen and (max-width: 850px){
+    .resourcemanage_description-banner img{
+        height: 45vh;
+    }
+        .resourcemanage_description-banner caption p h1{
+                       font-size: 45px;
+                line-height: 65px;
+
+            }
+            .resourcemanage-des-container{
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1rem;
+                margin-left: -1rem;
+            }
+        }
+ @media screen and (max-width: 780px){
+            .resourcemanage_description-banner caption p h1{
+                               font-size: 40px;
+                line-height: 60px;
+
+                }
+                .resourcemanage-des-container{
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 1rem;
+                    margin-left: -1rem;
+                }
+                .resourcemanage_description_data {
+                    font-size: 15px;
+                }
+                .resourcemanage_description_data_heading{
+                    font-size: 18px;
+                }
+                .resourcemanage-des-container ul{
+                    font-size: 15px;
+                }
+            }
+
+@media screen and (max-width: 700px){
+        .resourcemanage_description-banner caption p h1{
+                line-height: 50px;
+                font-size: 30px;
+        }
+        .resourcemanage_description_data {
+            font-size: 15px;
+        }
+        .resourcemanage_description_data_heading{
+            font-size: 18px;
+        }
+        .resourcemanage-des-container ul{
+            font-size: 15px;
+        }
+    }
+
+@media screen and (max-width: 550px){
+    .resourcemanage_description-banner img{
+        height: 40vh;
+    }
+    .resourcemanage_description-banner caption p h1{
+                font-size: 30px;
+                line-height: 50px;
+
+        }
+        .resourcemanage_description_data {
+            font-size: 15px;
+        }
+        .resourcemanage_description_data_heading{
+            font-size: 18px;
+        }
+        .resourcemanage-des-container ul{
+            font-size: 15px;
+        }
+    }
+@media screen and (max-width: 400px){
+    .resourcemanage_description-banner img{
+        height: 35vh;
+    }
+        .resourcemanage_description-banner caption p h1{
+                    font-size: 19px;
+                    line-height: 40px;
+
+            }
+
+            .resourcemanage_description_data {
+                font-size: 10px;
+            }
+            .resourcemanage_description_data_heading{
+                font-size: 12px;
+            }
+            .resourcemanage-des-container ul{
+                font-size: 10px;
+            }
+}

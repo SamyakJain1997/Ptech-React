@@ -2,19 +2,21 @@
     height: 65vh;
     width: 100%;
 }
+
 .automation_description-banner caption p h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 50vh;
     position: absolute;
     font-size: 75px;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 90px;
     bottom: 50%;
     text-align: center;
     color:#fff;
+    border-radius: 15px;
+    background-color: rgba(58, 26, 186, 0.8);
     letter-spacing: 5px;
 }
 
@@ -59,3 +61,135 @@
     background-color: rgb(29, 36, 137, 0.8);
 }
 
+@media screen and (max-width: 1350px){
+    .automation_description-banner caption p h1{
+        font-size: 65px;
+        line-height: 85px;
+
+        }
+    }
+
+@media screen and (max-width: 1150px){
+    .automation_description-banner img{
+        height: 55vh;
+    }
+    .automation_description-banner caption p h1{
+        line-height: 75px;
+        font-size: 55px;
+        }
+    }
+
+
+@media screen and (max-width: 980px){
+    .automation_description-banner caption p h1{
+                font-size: 45px;
+                line-height: 65px;
+
+        }
+        .automation-des-container{
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1rem;
+            margin-left: -1rem;
+        }
+        .automation_description_data {
+            font-size: 15px;
+        }
+        .automation_description_data_heading{
+            font-size: 18px;
+        }
+        .automation-des-container ul{
+            font-size: 15px;
+        }
+    }
+ @media screen and (max-width: 850px){
+    .automation_description-banner img{
+        height: 45vh;
+    }
+        .automation_description-banner caption p h1{
+                       font-size: 45px;
+                line-height: 65px;
+
+            }
+            .automation-des-container{
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1rem;
+                margin-left: -1rem;
+            }
+        }
+ @media screen and (max-width: 780px){
+            .automation_description-banner caption p h1{
+                               font-size: 40px;
+                line-height: 60px;
+
+                }
+                .automation-des-container{
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 1rem;
+                    margin-left: -1rem;
+                }
+                .automation_description_data {
+                    font-size: 15px;
+                }
+                .automation_description_data_heading{
+                    font-size: 18px;
+                }
+                .automation-des-container ul{
+                    font-size: 15px;
+                }
+            }
+
+@media screen and (max-width: 700px){
+        .automation_description-banner caption p h1{
+                line-height: 50px;
+                font-size: 30px;
+        }
+        .automation_description_data {
+            font-size: 15px;
+        }
+        .automation_description_data_heading{
+            font-size: 18px;
+        }
+        .automation-des-container ul{
+            font-size: 15px;
+        }
+    }
+
+@media screen and (max-width: 550px){
+    .automation_description-banner img{
+        height: 40vh;
+    }
+    .automation_description-banner caption p h1{
+                font-size: 30px;
+                line-height: 50px;
+
+        }
+        .automation_description_data {
+            font-size: 15px;
+        }
+        .automation_description_data_heading{
+            font-size: 18px;
+        }
+        .automation-des-container ul{
+            font-size: 15px;
+        }
+    }
+@media screen and (max-width: 400px){
+    .automation_description-banner img{
+        height: 35vh;
+    }
+        .automation_description-banner caption p h1{
+                    font-size: 19px;
+                    line-height: 40px;
+
+            }
+
+            .automation_description_data {
+                font-size: 10px;
+            }
+            .automation_description_data_heading{
+                font-size: 12px;
+            }
+            .automation-des-container ul{
+                font-size: 10px;
+            }
+}
