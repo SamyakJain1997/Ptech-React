@@ -77,7 +77,7 @@ useEffect(() => {
             <p><a href="/blog/transmissonPlan">• Transmission Planning Services</a></p>
             <p><a href="/blog/resourceManage">• Resource Management</a></p>
             <p><a href="/blog/automation">• Automation Solutions</a></p>
-            <p><a href="/blog/dataCenter">• Data Center Design & Solutions</a></p>
+            <p><a href="/blog/DataCentre">• Data Center Design & Solutions</a></p>
             <p><a href="/blog/solutionOffer">• Solution Offerings</a></p>
             <p><a href="/blog/productOffer">• Product Offerings</a></p>
           </div>
@@ -112,7 +112,7 @@ useEffect(() => {
             <p><a href="/blog/transmissonPlan">• Transmission Planning Services</a></p>
             <p><a href="/blog/resourceManage">• Resource Management</a></p>
             <p><a href="/blog/automation">• Automation Solutions</a></p>
-            <p><a href="/blog/dataCenter">• Data Center Design & Solutions</a></p>
+            <p><a href="/blog/DataCentre">• Data Center Design & Solutions</a></p>
             <p><a href="/blog/solutionOffer">• Solution Offerings</a></p>
             <p><a href="/blog/productOffer">• Product Offerings</a></p>
           </div>

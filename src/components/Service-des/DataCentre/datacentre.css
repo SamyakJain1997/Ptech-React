@@ -1,15 +1,15 @@
-.service_description_banner img{
-    height: 75vh;
+.datacentre_description-banner img{
+    height: 65vh;
     width: 100%;
 }
-.service_description_banner caption p{
+.datacentre_description-banner caption p h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 40%;
+    margin-left: 50vh;
     position: absolute;
-    font-size: 18px;
+    font-size: 75px;
     font-weight: 500;
     line-height: 50px;
     bottom: 50%;
@@ -18,16 +18,24 @@
     letter-spacing: 5px;
 }
 
-.service_description {
-    font-size: 50px;
+.datacentre_description_data {
+    font-size: 18px;
+    margin-top: 3rem;
+    margin: 30px;
 }
-.service_description-div{
+
+.datacentre_description_data_heading{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.datacentre_description-div{
     display: flex;
     justify-content: center;
     align-items: center;
     /* text-align: center; */
 }
-.service-des-container{
+.datacentre-des-container{
     flex: 1;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -35,27 +43,19 @@
     margin-left: -1rem;
 }
 
-.service-des-container ul{
+.datacentre-des-container ul{
     color: #fff;
-    background-color: rgb(50, 60, 192);
+    background-color: rgba(50, 59, 192, 0.8);
     font-size: 18px;
     margin-left: -1rem;
     margin-top: 1rem;
     margin-right: 1rem;
     font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 25px;
+}
+.datacentre-des-container ul:hover{
+    background-color: rgb(29, 36, 137, 0.8);
 }
 
-
-
-@media screen and (max-width: 1300px){
-    .service_description_banner img{
-        height: 50vh;
-        width: 100%;
-    }
-    .service_description_banner caption p{
-        padding-left: 22%;
-        bottom: 40%;
-
-    }
-
-}

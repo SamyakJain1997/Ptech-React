@@ -1,0 +1,61 @@
+.rfoptimisation_description-banner img{
+    height: 65vh;
+    width: 100%;
+}
+.rfoptimisation_description-banner caption p h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50vh;
+    position: absolute;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 50px;
+    bottom: 50%;
+    text-align: center;
+    color:#fff;
+    letter-spacing: 5px;
+}
+
+.rfoptimisation_description_data {
+    font-size: 18px;
+    margin-top: 3rem;
+    margin: 30px;
+}
+
+.rfoptimisation_description_data_heading{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.rfoptimisation_description-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.rfoptimisation-des-container{
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-left: -1rem;
+}
+
+.rfoptimisation-des-container ul{
+    color: #fff;
+    background-color: rgba(50, 59, 192, 0.8);
+    font-size: 18px;
+    margin-left: -1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 25px;
+}
+.rfoptimisation-des-container ul:hover{
+    background-color: rgb(29, 36, 137, 0.8);
+}
+

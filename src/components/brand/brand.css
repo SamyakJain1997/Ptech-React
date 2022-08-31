@@ -1,12 +1,11 @@
 .branding{
     display: flex;
     flex-direction: column;
+    margin-right: 1.7rem;
 }
 .brand{
-    overflow: scroll;
-    overflow-x: hidden;
     margin-bottom: 2rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 .brand .bar{
     width: 100px;
@@ -90,9 +89,6 @@
     width: 70%;
     margin-left: 10%;
     margin-right: 10%;
-}
-::-webkit-scrollbar{
-    width: 0px;
 }
 .brand1,
 .brand2,

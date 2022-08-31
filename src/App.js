@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { Footer, Blog, Aboutus, Features, Whatptech, Header, Video } from './containers';
-import { Navbar, Network, Rfplanning, Contact, Ourpolicy, Environmentpolicy, Automation, DataCenter, Networkoperation, ProductOffer, ResourceManage, RfOptimization, SolutionOffer, TransmissonPlan,  Brand} from './components';
+import { Navbar, Contact, Ourpolicy, Environmentpolicy, Automation, Brand, DataCentre, Network, NetworkOperations, ProductOffer, ResourceManage, RfOptimisation, RfPlanning, SolutionOffer, TransmissionPlan} from './components';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css';
@@ -27,15 +27,15 @@ const App = () => {
 
         {/* services extended blogs */}
         <Route  path="/blog/network" element={<><Network /></>} />
-        <Route  path="/blog/rfplanning" element={<><Rfplanning /></>} />
+        <Route  path="/blog/rfplanning" element={<><RfPlanning /></>} />
         <Route  path="/blog/automation" element={<><Automation /></>} />
-        <Route  path="/blog/dataCenter" element={<><DataCenter /></>} />
-        <Route  path="/blog/networkoperation" element={<><Networkoperation /></>} />
+        <Route  path="/blog/DataCentre" element={<><DataCentre /></>} />
+        <Route  path="/blog/networkoperation" element={<><NetworkOperations /></>} />
         <Route  path="/blog/productOffer" element={<><ProductOffer /></>} />
         <Route  path="/blog/resourceManage" element={<><ResourceManage /></>} />
-        <Route  path="/blog/rfOptimization" element={<><RfOptimization /></>} />
+        <Route  path="/blog/rfOptimization" element={<><RfOptimisation /></>} />
         <Route  path="/blog/solutionOffer" element={<><SolutionOffer /></>} />
-        <Route  path="/blog/transmissonPlan" element={<><TransmissonPlan /></>} />
+        <Route  path="/blog/transmissonPlan" element={<><TransmissionPlan /></>} />
 
         {/* footer plan */}
         <Route  path="/ourpolicy" element={<><Ourpolicy /></>} />
