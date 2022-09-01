@@ -1,6 +1,14 @@
+.automation-position-relative{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .automation_description-banner img{
     height: 70vh;    
-    width: 100%;
+    width: 97%;
+    
 }
 
 .automation_description-banner caption p h1{
@@ -12,7 +20,7 @@
     font-size: 75px;
     font-weight: 500;
     line-height: 90px;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -77,7 +85,8 @@
     }
     .automation_description-banner caption p h1{
         line-height: 75px;
-        font-size: 55px;
+                    top: 34%;
+                    font-size: 55px;
         }
     }
 
@@ -85,7 +94,8 @@
 @media screen and (max-width: 980px){
     .automation_description-banner caption p h1{
                 font-size: 45px;
-                line-height: 65px;
+                    top: 34%;
+                    line-height: 65px;
 
         }
         .automation-des-container{
@@ -109,7 +119,8 @@
     }
         .automation_description-banner caption p h1{
                        font-size: 45px;
-                line-height: 65px;
+                    top: 29%;
+                    line-height: 65px;
 
             }
             .automation-des-container{
@@ -121,7 +132,8 @@
  @media screen and (max-width: 780px){
             .automation_description-banner caption p h1{
                                font-size: 40px;
-                line-height: 60px;
+                    top: 29%;
+                    line-height: 60px;
 
                 }
                 .automation-des-container{
@@ -143,7 +155,8 @@
 @media screen and (max-width: 700px){
         .automation_description-banner caption p h1{
                 line-height: 50px;
-                font-size: 30px;
+                    top: 29%;
+                    font-size: 30px;
         }
         .automation_description_data {
             font-size: 15px;
@@ -162,7 +175,8 @@
     }
     .automation_description-banner caption p h1{
                 font-size: 30px;
-                line-height: 50px;
+                    top: 27%;
+                    line-height: 50px;
 
         }
         .automation_description_data {
@@ -181,6 +195,7 @@
     }
         .automation_description-banner caption p h1{
                     font-size: 19px;
+                    top: 30%;
                     line-height: 40px;
 
             }

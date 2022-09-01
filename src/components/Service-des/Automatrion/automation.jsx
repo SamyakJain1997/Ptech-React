@@ -6,7 +6,7 @@ const Automation = () => {
   return (
 <div className="automation_description-banner" id="blog/Automation">
         <div className="automation_data">
-          <div className="position-relative">
+          <div className="automation-position-relative">
             <img className="automation_image" src={Automations} alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Automation Solutions</h1></p></caption>

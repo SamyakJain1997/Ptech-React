@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { Footer, Blog, Aboutus, Features, Whatptech, Header, Video } from './containers';
-import { Navbar, Contact, Ourpolicy, Environmentpolicy, Howtoinstall, Automation, Brand, DataCentre, Network, NetworkOperations, ProductOffer, ResourceManage, RfOptimisation, RfPlanning, SolutionOffer, TransmissionPlan} from './components';
+import { Navbar, Contact, Ourpolicy, Environmentpolicy, Howtoinstall, PythonMac, PythonWin, JupyterMac, JupyterWin, VsMac, VsWin, RunMacFirst, RunWinFirst, Automation, Brand, DataCentre, Network, NetworkOperations, ProductOffer, ResourceManage, RfOptimisation, RfPlanning, SolutionOffer, TransmissionPlan} from './components';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css';
@@ -41,6 +41,18 @@ const App = () => {
         {/* footer plan */}
         <Route  path="/ourpolicy" element={<><Ourpolicy /></>} />
         <Route  path="/environmentpolicy" element={<><Environmentpolicy /></>} />
+        
+        {/* how to install */}
+        {/* <Route  path="/howtoinstall/windows" element={<><Windows /></>} /> */}
+        <Route  path="/howtoinstall/mac/pyhthon-jinja" element={<><PythonMac /></>} />
+        <Route  path="/howtoinstall/mac/jupyer-notebook" element={<><JupyterMac /></>} />
+        <Route  path="/howtoinstall/mac/visual-studio-code" element={<><VsMac /></>} />
+        <Route  path="/howtoinstall/mac/run-first-code" element={<><RunMacFirst /></>} />
+        <Route  path="/howtoinstall/windows/pyhthon-jinja" element={<><PythonWin /></>} />
+        <Route  path="/howtoinstall/windows/jupyer-notebook" element={<><JupyterWin /></>} />
+        <Route  path="/howtoinstall/windows/visual-studio-code" element={<><VsWin /></>} />
+        <Route  path="/howtoinstall/windows/run-first-code" element={<><RunWinFirst /></>} />
+
       
       </Routes>
       <ToastContainer />

@@ -6,7 +6,7 @@ const Networkoperation = () => {
   return (
      <div className="networkoperations_description-banner" id="blog/Networkoperation">
         <div className="networkoperations_data">
-          <div className="position-relative">
+          <div className="networkoperations-position-relative">
             <img className="networkoperations_image" src={Netoperation} alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Network Operations Services</h1></p></caption>

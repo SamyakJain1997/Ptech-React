@@ -6,7 +6,7 @@ const ProductOffer = () => {
   return (
 <div className="productoffer_description-banner" id="blog/ProductOffer">
 <div className="productoffer_data">
-  <div className="position-relative">
+  <div className="productoffer-position-relative">
     <img className="productoffer_image" src={Productoff} alt="Network Descriptiom" />
       <div>
         <caption><p><h1 className="text">Product Offerings</h1></p></caption>

@@ -6,7 +6,7 @@ const rfplanning = () => {
   return (
       <div className="rfplanning_description-banner" id="blog/rfplanning">
         <div className="rfplanning_data">
-          <div className="position-relative">
+          <div className="rfplanning-position-relative">
             <img className="rfplanning_image" src={rfplan} alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">RF Planning & Designing</h1></p></caption>

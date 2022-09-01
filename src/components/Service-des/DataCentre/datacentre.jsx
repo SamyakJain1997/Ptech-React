@@ -6,7 +6,7 @@ const DataCenter = () => {
   return (
    <div className="datacentre_description-banner" id="blog/DataCenter">
         <div className="datacentre_data">
-          <div className="position-relative">
+          <div className="datacentre-position-relative">
             <img className="datacentre_image" src={Data} alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Data Center Design & Solutions</h1></p></caption>

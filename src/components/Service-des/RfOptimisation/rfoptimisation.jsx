@@ -7,7 +7,7 @@ const RfOptimization = () => {
   return (
     <div className="rfoptimisation_description-banner" id="blog/RfOptimization">
         <div className="rfoptimisation_data">
-          <div className="position-relative">
+          <div className="rfoptimisation-position-relative">
             <img className="rfoptimisation_image" src={Rfopt} alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">RF Optimization & Drive Test</h1></p></caption>

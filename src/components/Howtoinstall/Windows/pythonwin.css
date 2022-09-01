@@ -1,0 +1,95 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.pythonwin{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pythonwin img{
+    width: 50%;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.pythonwin h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.pythonwin ul {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.pythonwin ul ul{
+    justify-content: flex-start;
+    text-align: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 450;
+}
+@media screen and (max-width: 1350px){
+    .pythonwin img{
+        width: 50%;
+    }
+    .pythonwin h1{
+        font-size: 18px;
+    }
+    .pythonwin ul ul{
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 950px){
+    .pythonwin{
+        flex-direction: column;
+    }
+    .pythonwin img {
+        width: 60%;
+    }
+    .pythonwin h1{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .pythonwin img{
+        width: 70%;
+    }
+    .pythonwin h1{
+        font-size: 15px;
+    }
+    .pythonwin ul ul{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .pythonwin img{
+        width: 100%;
+    }
+    .pythonwin h1{
+        font-size: 12px;
+    }
+    .pythonwin ul ul{
+        font-size: 12px;
+    }
+}

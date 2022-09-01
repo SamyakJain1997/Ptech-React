@@ -6,7 +6,7 @@ const TransmissonPlan = () => {
   return (
       <div className="transmission_description-banner" id="blog/TransmissonPlan">
         <div className="transmission_data">
-          <div className="position-relative">
+          <div className="transmission-position-relative">
             <img className="transmission_image" src={Transmission} alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Transmission Planning Services</h1></p></caption>

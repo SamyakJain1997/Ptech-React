@@ -6,7 +6,7 @@ const SolutionOffer = () => {
   return (
 <div className="solutionoffer_description-banner" id="blog/SolutionOffer">
 <div className="solutionoffer_data">
-  <div className="position-relative">
+  <div className="solutionoffer-position-relative">
     <img className="solutionoffer_image" src={Solution} alt="Network Descriptiom" />
       <div>
         <caption><p><h1 className="text">Solution Offerings</h1></p></caption>

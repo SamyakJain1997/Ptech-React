@@ -6,7 +6,7 @@ const ResourceManage = () => {
   return (
    <div className="resourcemanage_description-banner" id="blog/network">
         <div className="resourcemanage_data">
-          <div className="position-relative">
+          <div className="resourcemanage-position-relative">
             <img className="resourcemanage_image" src={Resource} alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Data Center Design & Solutions</h1></p></caption>
