@@ -4,18 +4,20 @@
 }
 .productoffer_description-banner caption p h1{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     position: absolute;
     font-size: 75px;
     font-weight: 500;
     line-height: 90px;
-    bottom: 50%;
-    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
-    background-color: rgba(58, 26, 186, 0.5);
     color:#fff;
+    border-radius: 15px;
+    background-color: rgba(58, 26, 186, 0.5);
     letter-spacing: 5px;
 }
 
