@@ -48,20 +48,6 @@ const Contact = () => {
   };
 
   return (
-    // <StyledContactForm>
-    //   <form ref={form} onSubmit={sendEmail} id="contact">
-    //     <label htmlFor="btn-check5" className="btn">Name
-    //       <input className="input" type="text" name="user_name" />
-    //     </label>
-    //     <label htmlFor="btn-check5" className="btn">Email
-    //       <input className="textarea" type="email" name="user_email" />
-    //     </label>
-    //     <label htmlFor="btn-check5" className="btn">Message
-    //       <textarea className="textarea" name="message" />
-    //     </label>
-    //     <input className="submit" type="submit" value="Send" />
-    //   </form>
-    // </StyledContactForm>
     <section className="contact">
       <div className="content">
         <h2>Contact Us</h2>

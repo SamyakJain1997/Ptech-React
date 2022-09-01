@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { Footer, Blog, Aboutus, Features, Whatptech, Header, Video } from './containers';
-import { Navbar, Contact, Ourpolicy, Environmentpolicy, Automation, Brand, DataCentre, Network, NetworkOperations, ProductOffer, ResourceManage, RfOptimisation, RfPlanning, SolutionOffer, TransmissionPlan} from './components';
+import { Navbar, Contact, Ourpolicy, Environmentpolicy, Howtoinstall, Automation, Brand, DataCentre, Network, NetworkOperations, ProductOffer, ResourceManage, RfOptimisation, RfPlanning, SolutionOffer, TransmissionPlan} from './components';
 import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css';
@@ -23,6 +23,7 @@ const App = () => {
         {/* <Route  path="/brand" element={<><Partners /></>} /> */}
         <Route  path="/aboutus" element={<><Aboutus /></>} />
         <Route  path="/blog" element={<><Blog /></>} />
+        <Route  path="/howtoinstall" element={<><Howtoinstall /></>} />
         <Route  path="/contact" element={<><Contact /></>} />
 
         {/* services extended blogs */}

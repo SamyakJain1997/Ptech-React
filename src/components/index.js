@@ -15,3 +15,4 @@ export { default as RfOptimisation } from './Service-des/RfOptimisation/rfoptimi
 export { default as RfPlanning } from './Service-des/RfPlanning/rfplanning';
 export { default as SolutionOffer } from './Service-des/SolutionOffer/solutionoffer';
 export { default as TransmissionPlan } from './Service-des/TransmissionPlan/transmissionplan';
+export { default as Howtoinstall } from './Howtoinstall/MainBlog';

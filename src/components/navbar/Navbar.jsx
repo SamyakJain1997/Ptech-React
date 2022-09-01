@@ -85,7 +85,7 @@ useEffect(() => {
         )}
       </div></p>
            <p><a href="/features">Work Commitment</a></p>
-           <p><a href="/features">Blog</a></p>
+           <p><a href="/howtoinstall">Blog</a></p>
           {/* <p><a href="/brand">partners</a></p> */}
           <p><a href="/contact">Contact Us</a></p>
 
@@ -120,7 +120,7 @@ useEffect(() => {
         )}
                 </div></p>
             <p><a href="/features">Work Commitment</a></p>
-            <p><a href="/features">Blog</a></p>
+            <p><a href="/howtoinstall">Blog</a></p>
             {/* <p><a href="/brand">partners</a></p> */}
             <p><a href="/contact">Contact Us</a></p>
           </div>
