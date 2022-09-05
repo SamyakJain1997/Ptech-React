@@ -1,6 +1,6 @@
 import React from 'react';
 import './resourcemanage.css';
-import Resource from '../../../assets/blog06.png';
+import Resource from '../../../assets/blog06.jpeg';
 
 const ResourceManage = () => {
   return (

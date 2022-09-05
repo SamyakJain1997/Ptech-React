@@ -1,6 +1,6 @@
 import React from 'react';
 import './datacentre.css';
-import Data from '../../../assets/blog08.png';
+import Data from '../../../assets/blog08.jpeg';
 
 const DataCenter = () => {
   return (

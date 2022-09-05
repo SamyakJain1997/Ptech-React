@@ -1,7 +1,6 @@
 import React from 'react';
 import './rfoptimisation.css';
-import Rfopt from '../../../assets/blog03.png';
-// import Network from '../../assets/network.jpg';
+import Rfopt from '../../../assets/blog03.jpeg';
 
 const RfOptimization = () => {
   return (

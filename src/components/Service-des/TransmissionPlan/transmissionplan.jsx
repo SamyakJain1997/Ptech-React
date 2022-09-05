@@ -1,6 +1,6 @@
 import React from 'react';
 import './transmissionplan.css';
-import Transmission from '../../../assets/blog05.png';
+import Transmission from '../../../assets/blog05.jpeg';
 
 const TransmissonPlan = () => {
   return (

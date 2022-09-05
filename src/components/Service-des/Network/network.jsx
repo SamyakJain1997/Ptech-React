@@ -1,6 +1,6 @@
 import React from 'react';
 import './network.css';
-import networksol from '../../../assets/blog01.png';
+import networksol from '../../../assets/blog01.jpeg';
 
 const Network = () => {
   return (

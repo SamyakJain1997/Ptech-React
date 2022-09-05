@@ -1,6 +1,6 @@
 import React from 'react';
 import './rfplanning.css';
-import rfplan from '../../../assets/blog02.png';
+import rfplan from '../../../assets/blog02.jpeg';
 
 const rfplanning = () => {
   return (

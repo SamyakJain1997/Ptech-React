@@ -1,6 +1,6 @@
 import React from 'react';
 import './Automation.css';
-import Automations from '../../../assets/blog07.png';
+import Automations from '../../../assets/blog07.jpeg';
 
 const Automation = () => {
   return (

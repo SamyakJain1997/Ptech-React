@@ -1,6 +1,6 @@
 import React from 'react';
 import './networkoperations.css';
-import Netoperation from '../../../assets/blog04.png';
+import Netoperation from '../../../assets/blog04.jpeg';
 
 const Networkoperation = () => {
   return (

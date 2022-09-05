@@ -1,449 +1,106 @@
-.macblog-position-relative{
+.ptech__blog {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.macblog_description-banner img{
-    height: 70vh;    
-    width: 97%;
-    
-}
+.ptech__blog-heading {
+    width: 100%;
+    text-align: left;
 
-.macblog_description-banner caption p h1{
-    display: flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    position: absolute;
-    font-size: 75px;
-    font-weight: 500;
-    line-height: 90px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    color:#fff;
-    border-radius: 15px;
-    background-color: rgba(131, 102, 248, 0.97);
-    letter-spacing: 5px;
-}
-
-.macblog_description_data {
-    font-size: 18px;
-    margin-top: 3rem;
-    margin: 30px;
-}
-
-.macblog_description_data_heading{
-    margin-top: 3rem;
     margin-bottom: 1rem;
 }
-
-.macblog_description-div{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* text-align: center; */
-}
-.macblog-des-container{
-    flex: 1;
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 500px;
-
-    grid-gap: 1rem;
-    margin-left: -1rem;
+.ptech__blog-heading div{
+    width: 100px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-left: 17%; */
+    /* margin-top: -1.5rem; */
+    margin-bottom: 0.25rem;
 }
 
-.macblog-des-container ul{
-    color: #fff;
-    background-color: rgba(50, 59, 192, 0.8);
-    font-size: 18px;
-    margin-left: -1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    font-weight: 500;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 25px;
-}
-.macblog-des-container ul:hover{
-    background-color: rgb(29, 36, 137, 0.8);
-}
-
-@media screen and (max-width: 1350px){
-    .macblog_description-banner caption p h1{
-        font-size: 65px;
-        line-height: 85px;
-        top: 45%;
-
-        }
-    }
-
-@media screen and (max-width: 1150px){
-    .macblog_description-banner img{
-        height: 55vh;
-    }
-    .macblog_description-banner caption p h1{
-        line-height: 75px;
-                    top: 39%;
-                    font-size: 55px;
-        }
-    }
-
-
-@media screen and (max-width: 980px){
-    .macblog_description-banner caption p h1{
-                font-size: 45px;
-                    top: 37%;
-                    line-height: 65px;
-
-        }
-        .macblog-des-container{
-            grid-template-columns: repeat(1, 1fr);
-            max-width: 500px;
-            grid-gap: 1rem;
-            margin-left: -1rem;
-        }
-        .macblog_description_data {
-            font-size: 15px;
-        }
-        .macblog_description_data_heading{
-            font-size: 18px;
-        }
-        .macblog-des-container ul{
-            font-size: 15px;
-        }
-    }
- @media screen and (max-width: 850px){
-    .macblog_description-banner img{
-        height: 45vh;
-    }
-        .macblog_description-banner caption p h1{
-                       font-size: 45px;
-                    top: 34%;
-                    line-height: 65px;
-
-            }
-            .macblog-des-container{
-                grid-template-columns: repeat(2, 1fr);
-                grid-gap: 1rem;
-                margin-left: -1rem;
-            }
-        }
- @media screen and (max-width: 780px){
-            .macblog_description-banner caption p h1{
-                               font-size: 40px;
-                    top: 34%;
-                    line-height: 60px;
-
-                }
-                .macblog-des-container{
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-gap: 1rem;
-                    margin-left: -1rem;
-                }
-                .macblog_description_data {
-                    font-size: 15px;
-                }
-                .macblog_description_data_heading{
-                    font-size: 18px;
-                }
-                .macblog-des-container ul{
-                    font-size: 15px;
-                }
-            }
-
-@media screen and (max-width: 700px){
-        .macblog_description-banner caption p h1{
-                line-height: 50px;
-                    top: 33%;
-                    font-size: 30px;
-        }
-        .macblog_description_data {
-            font-size: 15px;
-        }
-        .macblog_description_data_heading{
-            font-size: 18px;
-        }
-        .macblog-des-container ul{
-            font-size: 15px;
-        }
-    }
-
-@media screen and (max-width: 550px){
-    .macblog_description-banner img{
-        height: 40vh;
-    }
-    .macblog_description-banner caption p h1{
-                font-size: 30px;
-                    top: 32%;
-                    line-height: 50px;
-
-        }
-        .macblog_description_data {
-            font-size: 15px;
-        }
-        .macblog_description_data_heading{
-            font-size: 18px;
-        }
-        .macblog-des-container ul{
-            font-size: 15px;
-        }
-    }
-@media screen and (max-width: 400px){
-    .macblog_description-banner img{
-        height: 35vh;
-    }
-        .macblog_description-banner caption p h1{
-                    font-size: 19px;
-                    top: 28%;
-                    line-height: 40px;
-                    
-
-            }
-
-            .macblog_description_data {
-                font-size: 10px;
-            }
-            .macblog_description_data_heading{
-                font-size: 12px;
-            }
-            .macblog-des-container ul{
-                font-size: 10px;
-            }
-}
-
-.windowsblog-position-relative{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.windowsblog_description-banner img{
-    height: 70vh;    
-    width: 97%;
-    
-}
-
-.windowsblog_description-banner caption p h1{
-    display: flex;
-    /* flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    position: absolute;
-    font-size: 65px;
-    font-weight: 500;
-    line-height: 100px;
-    /* top: 50%; */
-    /* left: 50%; */
-    transform: translate(-90%,-140%);
-    text-align: center;
-    color:#fff;
-    border-radius: 15px;
-    background-color: rgba(131, 102, 248, 0.97);
-    /* letter-spacing: 5px; */
-}
-
-.windowsblog_description_data {
-    font-size: 18px;
-    margin-top: 3rem;
-    margin: 30px;
-}
-
-.windowsblog_description_data_heading{
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-}
-
-.windowsblog_description-div{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* text-align: center; */
-}
-.windowsblog-des-container{
-    flex: 1;
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 500px;
-
-    grid-gap: 1rem;
-    margin-left: -1rem;
-}
-
-.windowsblog-des-container ul{
-    color: #fff;
-    background-color: rgba(50, 59, 192, 0.8);
-    font-size: 18px;
-    margin-left: -1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    font-weight: 500;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 25px;
-}
-.windowsblog-des-container ul:hover{
-    background-color: rgb(29, 36, 137, 0.8);
-}
-@media screen and (max-width: 1450px){
-    .windowsblog_description-banner caption p h1{
-        transform: translate(-90%,-145%);
-        font-size: 52px;
-        line-height: 85px;
-
-        }
-    }
-
-@media screen and (max-width: 1150px){
-    .windowsblog_description-banner img{
-        height: 55vh;
-    }
-    .windowsblog_description-banner caption p h1{
-        line-height: 75px;
-                    /* top: 34%; */
-    transform: translate(-90%,-145%);
-    font-size: 42px;
-        }
-    }
-
-
-@media screen and (max-width: 980px){
-    .windowsblog_description-banner caption p h1{
-                font-size: 40px;
-                    /* top: 34%; */
-    transform: translate(-90%,-155%);
-    line-height: 65px;
-
-        }
-        .windowsblog-des-container{
-            grid-template-columns: repeat(1, 1fr);
-            max-width: 500px;
-            grid-gap: 1rem;
-            margin-left: -1rem;
-        }
-        .windowsblog_description_data {
-            font-size: 15px;
-        }
-        .windowsblog_description_data_heading{
-            font-size: 18px;
-        }
-        .windowsblog-des-container ul{
-            font-size: 15px;
-        }
-    }
-
-@media screen and (max-width: 950px) {
-    .windowsblog_description-banner caption p h1{
-        font-size: 30px;
-     /* top: 29%; */
-transform: translate(-90%,-150%);
-line-height: 65px;
-
-}
-    
-}
- @media screen and (max-width: 850px){
-    .windowsblog_description-banner img{
-        height: 45vh;
-    }
-        .windowsblog_description-banner caption p h1{
-                       font-size: 30px;
-                    /* top: 29%; */
-    transform: translate(-90%,-140%);
-    line-height: 65px;
-
-            }
-            .windowsblog-des-container{
-                grid-template-columns: repeat(2, 1fr);
-                grid-gap: 1rem;
-                margin-left: -1rem;
-            }
-        }
- @media screen and (max-width: 780px){
-            .windowsblog_description-banner caption p h1{
-                               font-size: 30px;
-                    /* top: 29%; */
-                    line-height: 60px;
-
-                }
-                .windowsblog-des-container{
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-gap: 1rem;
-                    margin-left: -1rem;
-                }
-                .windowsblog_description_data {
-                    font-size: 15px;
-                }
-                .windowsblog_description_data_heading{
-                    font-size: 18px;
-                }
-                .windowsblog-des-container ul{
-                    font-size: 15px;
-                }
-            }
-
-@media screen and (max-width: 700px){
-        .windowsblog_description-banner caption p h1{
-                line-height: 50px;
-                    /* top: 29%; */
-    transform: translate(-90%,-165%);
-    font-size: 20px;
-        }
-        .windowsblog_description_data {
-            font-size: 15px;
-        }
-        .windowsblog_description_data_heading{
-            font-size: 18px;
-        }
-        .windowsblog-des-container ul{
-            font-size: 15px;
-        }
-    }
-
-@media screen and (max-width: 550px){
-    .windowsblog_description-banner img{
-        height: 40vh;
-    }
-    .windowsblog_description-banner caption p h1{
-                font-size: 20px;
-                    /* top: 27%; */
-    transform: translate(-90%,-160%);
+.ptech__blog-heading h1 {
+    font-size: 40px;
     line-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    /* justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    margin-bottom: 2rem;
+}
 
-        }
-        .windowsblog_description_data {
-            font-size: 15px;
-        }
-        .windowsblog_description_data_heading{
-            font-size: 18px;
-        }
-        .windowsblog-des-container ul{
-            font-size: 15px;
-        }
+.ptech__blog-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ptech__blog-container {
+        flex: 1;
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
+}
+
+.button{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1900px) {
+    .ptech__blog-container {
+        flex: 1;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
     }
-@media screen and (max-width: 400px){
-    .windowsblog_description-banner img{
-        height: 35vh;
+    
+}
+
+@media screen and (max-width: 1367px) {
+    .ptech__blog-container {
+        flex: 1;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
     }
-        .windowsblog_description-banner caption p h1{
-                    font-size: 15px;
-                    /* top: 30%; */
-    line-height: 40px;
+    
+}
 
-            }
+@media screen and (max-width: 1080px) {
+    .ptech__blog-container {
+        flex: 1;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    
+}
+@media screen and (max-width: 990px) {
+    .ptech__blog-container {
+        flex-direction: column;
+    }
 
-            .windowsblog_description_data {
-                font-size: 10px;
-            }
-            .windowsblog_description_data_heading{
-                font-size: 12px;
-            }
-            .windowsblog-des-container ul{
-                font-size: 10px;
-            }
+}
+
+@media screen and (max-width: 700px) {
+    .ptech__blog-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ptech__blog-container_groupA .ptech__blog-container_article  {
+       width: 100%;
+    }
+
+    .ptech__blog-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ptech__blog-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
 }
