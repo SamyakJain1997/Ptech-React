@@ -1,13 +1,13 @@
 import React from 'react';
 import './networkoperations.css';
-import Netoperation from '../../../assets/blog04.jpeg';
+// import Netoperation from '../../../assets/blog04.jpeg';
 
 const Networkoperation = () => {
   return (
      <div className="networkoperations_description-banner" id="blog/Networkoperation">
         <div className="networkoperations_data">
           <div className="networkoperations-position-relative">
-            <img className="networkoperations_image" src={Netoperation} alt="Network Descriptiom" />
+            <img className="networkoperations_image" src="https://ptechindia.in/pics/blog04.jpeg" alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Network Operations Services</h1></p></caption>
               </div>

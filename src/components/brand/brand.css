@@ -85,9 +85,9 @@
     margin-left: 3rem;
 }
 .brand div img{
-    height: 30vh;
-    width: 70%;
-    margin-left: 10%;
+    height: 20vh;
+    width: 50%;
+    margin-left: 25%;
     margin-right: 10%;
 }
 .brand1,
@@ -98,18 +98,18 @@
 .brand1 div img{
     height: 20vh;
     width: 70%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .brand2 div img{
     height: 20vh;
     width: 70%;
-    margin-left: 10%;
+    margin-left: 20%;
 
 }
 .brand3 div img{
     height: 15vh;
     width: 70%;
-    margin-left: 10%;
+    margin-left: 20%;
 
 }
  @media screen and (max-width: 1350px){

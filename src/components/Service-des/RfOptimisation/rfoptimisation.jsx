@@ -1,13 +1,13 @@
 import React from 'react';
 import './rfoptimisation.css';
-import Rfopt from '../../../assets/blog03.jpeg';
+// import Rfopt from '../../../assets/blog03.jpeg';
 
 const RfOptimization = () => {
   return (
     <div className="rfoptimisation_description-banner" id="blog/RfOptimization">
         <div className="rfoptimisation_data">
           <div className="rfoptimisation-position-relative">
-            <img className="rfoptimisation_image" src={Rfopt} alt="Network Descriptiom" />
+            <img className="rfoptimisation_image" src="https://ptechindia.in/pics/blog03.jpeg" alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">RF Optimization & Drive Test</h1></p></caption>
               </div>

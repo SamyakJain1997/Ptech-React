@@ -1,15 +1,15 @@
 import React from 'react';
 import './resourcemanage.css';
-import Resource from '../../../assets/blog06.jpeg';
+// import Resource from '../../../assets/blog06.jpeg';
 
 const ResourceManage = () => {
   return (
    <div className="resourcemanage_description-banner" id="blog/network">
         <div className="resourcemanage_data">
           <div className="resourcemanage-position-relative">
-            <img className="resourcemanage_image" src={Resource} alt="Network Descriptiom" />
+            <img className="resourcemanage_image" src="https://ptechindia.in/pics/blog06.jpeg" alt="Network Descriptiom" />
               <div>
-                <caption><p><h1 className="text">Data Center Design & Solutions</h1></p></caption>
+                <caption><p><h1 className="text">Resource Management</h1></p></caption>
               </div>
           </div>
           <div className="resourcemanage_description_data">

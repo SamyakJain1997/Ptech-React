@@ -1,13 +1,13 @@
 import React from 'react';
 import './Automation.css';
-import Automations from '../../../assets/blog07.jpeg';
+// import Automations from '';
 
 const Automation = () => {
   return (
 <div className="automation_description-banner" id="blog/Automation">
         <div className="automation_data">
           <div className="automation-position-relative">
-            <img className="automation_image" src={Automations} alt="Network Descriptiom" />
+            <img className="automation_image" src="https://ptechindia.in/pics/blog07.jpeg" alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Automation Solutions</h1></p></caption>
               </div>

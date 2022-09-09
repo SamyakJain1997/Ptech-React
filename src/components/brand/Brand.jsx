@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { crousel1, crousel10, crousel2, crousel3, crousel4, crousel5, crousel6, crousel7, crousel8, crousel9 } from './imports';
+import { crousel1, crousel10, crousel2, crousel3, crousel4, crousel5, crousel6, crousel7, crousel8, crousel9, crousel11, crousel12 } from './imports';
 import './brand.css';
 
 
@@ -51,6 +51,12 @@ export default class PauseOnHover extends Component {
         <h1 className="gradient__text">Our Partners</h1>
         <Slider {...settings}>
           <div>
+            <img src={crousel12} alt="slide" />
+          </div>
+          <div>
+            <img src={crousel11} alt="slide" />
+          </div>
+          <div>
             <img src={crousel1} alt="slide" />
           </div>
           <div>
@@ -86,6 +92,12 @@ export default class PauseOnHover extends Component {
       <div className="bar" />
       <h1 className="gradient__text">Our Partners</h1>
       <Slider {...settings1}>
+      <div>
+            <img src={crousel11} alt="slide" />
+          </div>
+          <div>
+            <img src={crousel12} alt="slide" />
+          </div>
         <div>
           <img src={crousel1} alt="slide" />
         </div>
@@ -122,6 +134,12 @@ export default class PauseOnHover extends Component {
     <div className="bar" />
       <h1 className="gradient__text">Our Partners</h1>
       <Slider {...settings2}>
+      <div>
+            <img src={crousel11} alt="slide" />
+          </div>
+          <div>
+            <img src={crousel12} alt="slide" />
+          </div>
         <div>
           <img src={crousel1} alt="slide" />
         </div>
@@ -158,6 +176,12 @@ export default class PauseOnHover extends Component {
     <div className="bar" />
       <h1 className="gradient__text">Our Partners</h1>
       <Slider {...settings3}>
+      <div>
+            <img src={crousel11} alt="slide" />
+          </div>
+          <div>
+            <img src={crousel12} alt="slide" />
+          </div>
         <div>
           <img src={crousel1} alt="slide" />
         </div>

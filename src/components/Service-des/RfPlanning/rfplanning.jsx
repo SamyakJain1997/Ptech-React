@@ -1,13 +1,13 @@
 import React from 'react';
 import './rfplanning.css';
-import rfplan from '../../../assets/blog02.jpeg';
+// import rfplan from '../../../assets/blog02.jpeg';
 
 const rfplanning = () => {
   return (
       <div className="rfplanning_description-banner" id="blog/rfplanning">
         <div className="rfplanning_data">
           <div className="rfplanning-position-relative">
-            <img className="rfplanning_image" src={rfplan} alt="Network Descriptiom" />
+            <img className="rfplanning_image" src="https://ptechindia.in/pics/blog02.jpeg" alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">RF Planning & Designing</h1></p></caption>
               </div>

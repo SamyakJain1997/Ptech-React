@@ -1,13 +1,13 @@
 import React from 'react';
 import './datacentre.css';
-import Data from '../../../assets/blog08.jpeg';
+// import Data from '../../../assets/blog08.jpeg';
 
 const DataCenter = () => {
   return (
    <div className="datacentre_description-banner" id="blog/DataCenter">
         <div className="datacentre_data">
           <div className="datacentre-position-relative">
-            <img className="datacentre_image" src={Data} alt="Network Descriptiom" />
+            <img className="datacentre_image" src="https://ptechindia.in/pics/blog08.jpeg" alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Data Center Design & Solutions</h1></p></caption>
               </div>

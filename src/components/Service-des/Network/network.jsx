@@ -1,13 +1,13 @@
 import React from 'react';
 import './network.css';
-import networksol from '../../../assets/blog01.jpeg';
+// import networksol from '../../../assets/blog01.jpeg';
 
 const Network = () => {
   return (
 <div className="network_description-banner" id="blog/Automation">
         <div className="network_data">
           <div className="network-position-relative">
-            <img className="network_image" src={networksol} alt="Network Descriptiom" />
+            <img className="network_image" src="https://ptechindia.in/pics/blog01.jpeg" alt="Network Descriptiom" />
               <div>
                 <caption><p><h1 className="text">Network Implementation</h1></p></caption>
               </div>

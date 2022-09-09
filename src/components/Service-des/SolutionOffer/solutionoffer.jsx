@@ -1,13 +1,13 @@
 import React from 'react';
 import './solutionoffer.css';
-import Solution from '../../../assets/blog09.png';
+// import Solution from '../../../assets/blog09.png';
 
 const SolutionOffer = () => {
   return (
 <div className="solutionoffer_description-banner" id="blog/SolutionOffer">
 <div className="solutionoffer_data">
   <div className="solutionoffer-position-relative">
-    <img className="solutionoffer_image" src={Solution} alt="Network Descriptiom" />
+    <img className="solutionoffer_image" src="https://ptechindia.in/pics/blog09.png" alt="Network Descriptiom" />
       <div>
         <caption><p><h1 className="text">Solution Offerings</h1></p></caption>
       </div>

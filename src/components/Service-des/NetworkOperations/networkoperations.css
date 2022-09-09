@@ -20,14 +20,14 @@
     font-size: 75px;
     font-weight: 500;
     line-height: 90px;
-    top: 40%;
+    /* top: 40%; */
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-110%);
     text-align: center;
     color:#fff;
     border-radius: 15px;
     background-color: rgba(58, 26, 186, 0.8);
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 
 .networkoperations_description_data {
@@ -85,7 +85,7 @@
     }
     .networkoperations_description-banner caption p h1{
         line-height: 75px;
-                    top: 34%;
+                    /* top: 34%; */
                     font-size: 55px;
         }
     }
@@ -94,7 +94,7 @@
 @media screen and (max-width: 980px){
     .networkoperations_description-banner caption p h1{
                 font-size: 45px;
-                    top: 34%;
+                    /* top: 34%; */
                     line-height: 65px;
 
         }
@@ -119,7 +119,7 @@
     }
         .networkoperations_description-banner caption p h1{
                        font-size: 45px;
-                    top: 29%;
+                    /* top: 29%; */
                     line-height: 65px;
 
             }
@@ -132,7 +132,7 @@
  @media screen and (max-width: 780px){
             .networkoperations_description-banner caption p h1{
                                font-size: 40px;
-                    top: 29%;
+                    /* top: 29%; */
                     line-height: 60px;
 
                 }
@@ -155,7 +155,7 @@
 @media screen and (max-width: 700px){
         .networkoperations_description-banner caption p h1{
                 line-height: 50px;
-                    top: 29%;
+                    /* top: 29%; */
                     font-size: 30px;
         }
         .networkoperations_description_data {
@@ -175,7 +175,7 @@
     }
     .networkoperations_description-banner caption p h1{
                 font-size: 30px;
-                    top: 27%;
+                    /* top: 27%; */
                     line-height: 50px;
 
         }
@@ -195,7 +195,7 @@
     }
         .networkoperations_description-banner caption p h1{
                     font-size: 19px;
-                    top: 30%;
+                    /* top: 30%; */
                     line-height: 40px;
 
             }

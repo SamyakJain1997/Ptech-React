@@ -1,8 +1,4 @@
 import React from 'react';
-import banner1 from '../../assets/banner1.jpg';
-import banner2 from '../../assets/banner2.jpg';
-import banner3 from '../../assets/banner3.jpg';
-import banner4 from '../../assets/banner4.jpg';
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -18,19 +14,16 @@ const Aboutusbanner = () => {
     <MDBCarousel showControls>
       <MDBCarouselInner>
         <MDBCarouselItem className="active">
-          <MDBCarouselElement src={banner3} alt="..." />
+          <MDBCarouselElement src="https://ptechindia.in/pics/banner3.jpg" alt="..." />
         </MDBCarouselItem>
         <MDBCarouselItem>
-          <MDBCarouselElement src={banner4} alt="..." />
+          <MDBCarouselElement src="https://ptechindia.in/pics/banner4.jpg" alt="..." />
         </MDBCarouselItem>
         <MDBCarouselItem>
-          <MDBCarouselElement src={banner2} alt="..." />
+          <MDBCarouselElement src="https://ptechindia.in/pics/banner2.jpg" alt="..." />
         </MDBCarouselItem>
         <MDBCarouselItem>
-          <MDBCarouselElement src={banner1} alt="..." />
-        </MDBCarouselItem>
-        <MDBCarouselItem>
-          <MDBCarouselElement src={banner1} alt="..." />
+          <MDBCarouselElement src="https://ptechindia.in/pics/banner1.jpg" alt="..." />
         </MDBCarouselItem>
       </MDBCarouselInner>
     </MDBCarousel>
