@@ -1,17 +1,17 @@
-.transmission-position-relative{
+.transmission-position-relative {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.transmission_description-banner img{
-    height: 70vh;    
-    width: 97%;
-    
+.transmission_description-banner img {
+    height: 70vh;
+    width: 95%;
+
 }
 
-.transmission_description-banner caption p h1{
+.transmission_description-banner caption p h1 {
     display: flex;
     /* flex-direction: column;
     justify-content: center;
@@ -20,14 +20,14 @@
     font-size: 75px;
     font-weight: 500;
     line-height: 90px;
-    /* top: 40%; */
-    left: 50%;
-    transform: translate(-50%,-110%);
+    top: 40%;
+    left: 3%;
+    transform: translate(0%, -50%);
     text-align: center;
-    color:#fff;
-    border-radius: 15px;
-    background-color: rgba(58, 26, 186, 0.8);
-    /* letter-spacing: 5px; */
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: hsla(223, 81%, 27%, 0.5);
+    letter-spacing: 5px;
 }
 
 .transmission_description_data {
@@ -36,28 +36,29 @@
     margin: 30px;
 }
 
-.transmission_description_data_heading{
+.transmission_description_data_heading {
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
-.transmission_description-div{
+.transmission_description-div {
     display: flex;
     justify-content: center;
     align-items: center;
     /* text-align: center; */
 }
-.transmission-des-container{
+
+.transmission-des-container {
     flex: 1;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     margin-left: -1rem;
 }
 
-.transmission-des-container ul{
+.transmission-des-container ul {
     color: #fff;
-    background-color: rgba(50, 59, 192, 0.8);
+    background-color: hsla(223, 81%, 27%, 0.8);
     font-size: 18px;
     margin-left: -1rem;
     margin-top: 1rem;
@@ -67,146 +68,187 @@
     padding-bottom: 1rem;
     border-radius: 25px;
 }
-.transmission-des-container ul:hover{
+
+.transmission-des-container ul:hover {
     background-color: rgb(29, 36, 137, 0.8);
 }
 
-@media screen and (max-width: 1350px){
-    .transmission_description-banner caption p h1{
+@media screen and (max-width: 1350px) {
+    .transmission_description-banner caption p h1 {
         font-size: 65px;
         line-height: 85px;
 
-        }
     }
+}
 
-@media screen and (max-width: 1150px){
-    .transmission_description-banner img{
+@media screen and (max-width: 1150px) {
+    .transmission_description-banner img {
         height: 55vh;
     }
-    .transmission_description-banner caption p h1{
-        line-height: 75px;
-                    /* top: 34%; */
-                    font-size: 55px;
-        }
+
+    .transmission_description-banner caption p h1 {
+        font-size: 55px;
+        top: 35%;
+        line-height: 90px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        left: 3%;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .transmission_description-banner caption p h1 {
+        font-size: 45px;
+        top: 35%;
+        line-height: 80px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        left: 3%;
     }
 
-
-@media screen and (max-width: 980px){
-    .transmission_description-banner caption p h1{
-                font-size: 45px;
-                    /* top: 34%; */
-                    line-height: 65px;
-
-        }
-        .transmission-des-container{
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 1rem;
-            margin-left: -1rem;
-        }
-        .transmission_description_data {
-            font-size: 15px;
-        }
-        .transmission_description_data_heading{
-            font-size: 18px;
-        }
-        .transmission-des-container ul{
-            font-size: 15px;
-        }
+    .transmission-des-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        margin-left: -1rem;
     }
- @media screen and (max-width: 850px){
-    .transmission_description-banner img{
+
+    .transmission_description_data {
+        font-size: 15px;
+    }
+
+    .transmission_description_data_heading {
+        font-size: 18px;
+    }
+
+    .transmission-des-container ul {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .transmission_description-banner img {
         height: 45vh;
     }
-        .transmission_description-banner caption p h1{
-                       font-size: 45px;
-                    /* top: 29%; */
-                    line-height: 65px;
 
-            }
-            .transmission-des-container{
-                grid-template-columns: repeat(2, 1fr);
-                grid-gap: 1rem;
-                margin-left: -1rem;
-            }
-        }
- @media screen and (max-width: 780px){
-            .transmission_description-banner caption p h1{
-                               font-size: 40px;
-                    /* top: 29%; */
-                    line-height: 60px;
-
-                }
-                .transmission-des-container{
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-gap: 1rem;
-                    margin-left: -1rem;
-                }
-                .transmission_description_data {
-                    font-size: 15px;
-                }
-                .transmission_description_data_heading{
-                    font-size: 18px;
-                }
-                .transmission-des-container ul{
-                    font-size: 15px;
-                }
-            }
-
-@media screen and (max-width: 700px){
-        .transmission_description-banner caption p h1{
-                line-height: 50px;
-                    /* top: 29%; */
-                    font-size: 30px;
-        }
-        .transmission_description_data {
-            font-size: 15px;
-        }
-        .transmission_description_data_heading{
-            font-size: 18px;
-        }
-        .transmission-des-container ul{
-            font-size: 15px;
-        }
+    .transmission_description-banner caption p h1 {
+        font-size: 45px;
+        top: 31%;
+        line-height: 70px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        left: 3%;
     }
 
-@media screen and (max-width: 550px){
-    .transmission_description-banner img{
+    .transmission-des-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        margin-left: -1rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .transmission_description-banner caption p h1 {
+        font-size: 40px;
+        top: 31%;
+        line-height: 70px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        left: 3%;
+    }
+
+    .transmission-des-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        margin-left: -1rem;
+    }
+
+    .transmission_description_data {
+        font-size: 15px;
+    }
+
+    .transmission_description_data_heading {
+        font-size: 18px;
+    }
+
+    .transmission-des-container ul {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .transmission_description-banner caption p h1 {
+        font-size: 30px;
+        top: 30%;
+        line-height: 60px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        left: 3%;
+    }
+
+    .transmission_description_data {
+        font-size: 15px;
+    }
+
+    .transmission_description_data_heading {
+        font-size: 18px;
+    }
+
+    .transmission-des-container ul {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .transmission_description-banner img {
         height: 40vh;
     }
-    .transmission_description-banner caption p h1{
-                font-size: 30px;
-                    /* top: 27%; */
-                    line-height: 50px;
 
-        }
-        .transmission_description_data {
-            font-size: 15px;
-        }
-        .transmission_description_data_heading{
-            font-size: 18px;
-        }
-        .transmission-des-container ul{
-            font-size: 15px;
-        }
+    .transmission_description-banner caption p h1 {
+        font-size: 25px;
+        top: 28%;
+        line-height: 50px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        left: 3%;
     }
-@media screen and (max-width: 400px){
-    .transmission_description-banner img{
+
+    .transmission_description_data {
+        font-size: 15px;
+    }
+
+    .transmission_description_data_heading {
+        font-size: 18px;
+    }
+
+    .transmission-des-container ul {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .transmission_description-banner img {
         height: 35vh;
     }
-        .transmission_description-banner caption p h1{
-                    font-size: 19px;
-                    /* top: 30%; */
-                    line-height: 40px;
 
-            }
+    .transmission_description-banner caption p h1 {
+        font-size: 20px;
+        top: 25%;
+        line-height: 50px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        left: 3%;
+    }
 
-            .transmission_description_data {
-                font-size: 10px;
-            }
-            .transmission_description_data_heading{
-                font-size: 12px;
-            }
-            .transmission-des-container ul{
-                font-size: 10px;
-            }
+    .transmission_description_data {
+        font-size: 12px;
+    }
+
+    .transmission_description_data_heading {
+        font-size: 12px;
+    }
+
+    .transmission-des-container ul {
+        font-size: 12px;
+    }
 }

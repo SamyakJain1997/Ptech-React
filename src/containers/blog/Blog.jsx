@@ -34,7 +34,7 @@ const Blog = () => {
           </div>
           <div className="button">
             <a href="/blog/TransmissonPlan">
-              <Article imgUrl={blog005} heading="Transmission Planning Services" text="Transmission network planning covers definition of the whole network topology, technology selections, equipment configurations, synchronization and management plans." />
+              <Article imgUrl={blog005} heading="Transmission Planning Services" text="Transmission network planning covers definition of the whole network topology, technology selections." />
             </a>
           </div>
           <div className="button">
