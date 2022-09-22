@@ -4,7 +4,7 @@ import './networkoperations.css';
 
 const Networkoperation = () => {
   return (
-     <div className="networkoperations_description-banner" id="blog/Networkoperation">
+     <div className="networkoperations_description-banner" id="services/Networkoperation">
         <div className="networkoperations_data">
           <div className="networkoperations-position-relative">
             <img className="networkoperations_image" src="https://ptechindia.in/pics/blog04.jpeg" alt="Network Descriptiom" />

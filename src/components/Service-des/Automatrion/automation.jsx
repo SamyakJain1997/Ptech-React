@@ -4,7 +4,7 @@ import './Automation.css';
 
 const Automation = () => {
   return (
-<div className="automation_description-banner" id="blog/Automation">
+<div className="automation_description-banner" id="services/Automation">
         <div className="automation_data">
           <div className="automation-position-relative">
             <img className="automation_image" src="https://ptechindia.in/pics/blog07.jpeg" alt="Network Descriptiom" />

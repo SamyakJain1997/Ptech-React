@@ -4,7 +4,7 @@ import './solutionoffer.css';
 
 const SolutionOffer = () => {
   return (
-<div className="solutionoffer_description-banner" id="blog/SolutionOffer">
+<div className="solutionoffer_description-banner" id="services/SolutionOffer">
 <div className="solutionoffer_data">
   <div className="solutionoffer-position-relative">
     <img className="solutionoffer_image" src="https://ptechindia.in/pics/blog09.png" alt="Network Descriptiom" />

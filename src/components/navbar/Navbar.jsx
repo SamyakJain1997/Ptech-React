@@ -70,22 +70,22 @@ useEffect(() => {
         {toggleServices ? <p onClick={() => setToggleServices(false)}>Services<IoCaretUpSharp color="#000" size={18} onClick={() => setToggleServices(false)} /></p> : <p onClick={() => setToggleServices(true)}>Services< IoCaretDownSharp color="#000" size={18} onClick={() => setToggleServices(true)} /></p>}
         {toggleServices && ( <div className="ptech__navbar-service_container">
           <div className="ptech__navbar-service_container-links">
-            <p><a href="/blog/network">• Network Design & Implementation</a></p>
-            <p><a href="/blog/rfplanning">• RF Planning & Designing</a></p>
-            <p><a href="/blog/rfOptimization">• RF Optimization & Drive Test</a></p>
-            <p><a href="/blog/networkoperation">• Network Operations Services</a></p>
-            <p><a href="/blog/transmissonPlan">• Transmission Planning Services</a></p>
-            <p><a href="/blog/resourceManage">• Resource Management</a></p>
-            <p><a href="/blog/automation">• Automation Solutions</a></p>
-            <p><a href="/blog/DataCentre">• Data Center Design & Solutions</a></p>
-            <p><a href="/blog/solutionOffer">• Solution Offerings</a></p>
-            <p><a href="/blog/productOffer">• Product Offerings</a></p>
+            <p><a href="/services/network">• Network Design & Implementation</a></p>
+            <p><a href="/services/rfplanning">• RF Planning & Designing</a></p>
+            <p><a href="/services/rfOptimization">• RF Optimization & Drive Test</a></p>
+            <p><a href="/services/networkoperation">• Network Operations Services</a></p>
+            <p><a href="/services/transmissonPlan">• Transmission Planning Services</a></p>
+            <p><a href="/services/resourceManage">• Resource Management</a></p>
+            <p><a href="/services/automation">• Automation Solutions</a></p>
+            <p><a href="/services/DataCentre">• Data Center Design & Solutions</a></p>
+            <p><a href="/services/solutionOffer">• Solution Offerings</a></p>
+            <p><a href="/services/productOffer">• Product Offerings</a></p>
           </div>
         </div>
         )}
       </div></p>
            <p><a href="/features">Work Commitment</a></p>
-           <p><a href="/howtoinstall">Blog</a></p>
+           <p><a href="/guide">Blog</a></p>
           {/* <p><a href="/brand">partners</a></p> */}
           <p><a href="/contact">Contact Us</a></p>
 
@@ -105,22 +105,22 @@ useEffect(() => {
         {toggleServicesdes ? <p onClick={() => setToggleServicesdes(false)}>Services<BsArrowUpRightSquare color="#000" size={27} onClick={() => setToggleServicesdes(false)} /></p> : <p onClick={() => setToggleServicesdes(true)}>Services<BsArrowDownLeftSquare color="#000" size={27} onClick={() => setToggleServicesdes(true)} /></p>}
         {toggleServicesdes && ( <div className="ptech__navbar-service_container">
           <div className="ptech__navbar-service_container-links">
-            <p><a href="/blog/network">• Network Design & Implementation</a></p>
-            <p><a href="/blog/rfplanning">• RF Planning & Designing</a></p>
-            <p><a href="/blog/rfOptimization">• RF Optimization & Drive Test</a></p>
-            <p><a href="/blog/networkoperation">• Network Operations Services</a></p>
-            <p><a href="/blog/transmissonPlan">• Transmission Planning Services</a></p>
-            <p><a href="/blog/resourceManage">• Resource Management</a></p>
-            <p><a href="/blog/automation">• Automation Solutions</a></p>
-            <p><a href="/blog/DataCentre">• Data Center Design & Solutions</a></p>
-            <p><a href="/blog/solutionOffer">• Solution Offerings</a></p>
-            <p><a href="/blog/productOffer">• Product Offerings</a></p>
+            <p><a href="/services/network">• Network Design & Implementation</a></p>
+            <p><a href="/services/rfplanning">• RF Planning & Designing</a></p>
+            <p><a href="/services/rfOptimization">• RF Optimization & Drive Test</a></p>
+            <p><a href="/services/networkoperation">• Network Operations Services</a></p>
+            <p><a href="/services/transmissonPlan">• Transmission Planning Services</a></p>
+            <p><a href="/services/resourceManage">• Resource Management</a></p>
+            <p><a href="/services/automation">• Automation Solutions</a></p>
+            <p><a href="/services/DataCentre">• Data Center Design & Solutions</a></p>
+            <p><a href="/services/solutionOffer">• Solution Offerings</a></p>
+            <p><a href="/services/productOffer">• Product Offerings</a></p>
           </div>
         </div>
         )}
                 </div></p>
             <p><a href="/features">Work Commitment</a></p>
-            <p><a href="/howtoinstall">Blog</a></p>
+            <p><a href="/guide">Blog</a></p>
             {/* <p><a href="/brand">partners</a></p> */}
             <p><a href="/contact">Contact Us</a></p>
           </div>

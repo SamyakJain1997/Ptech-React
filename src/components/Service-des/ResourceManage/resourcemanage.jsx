@@ -4,7 +4,7 @@ import './resourcemanage.css';
 
 const ResourceManage = () => {
   return (
-   <div className="resourcemanage_description-banner" id="blog/network">
+   <div className="resourcemanage_description-banner" id="services/network">
         <div className="resourcemanage_data">
           <div className="resourcemanage-position-relative">
             <img className="resourcemanage_image" src="https://ptechindia.in/pics/blog06.jpeg" alt="Network Descriptiom" />

@@ -23,20 +23,21 @@ const App = () => {
         {/* <Route  path="/brand" element={<><Partners /></>} /> */}
         <Route  path="/aboutus" element={<><Aboutus /></>} />
         <Route  path="/blog" element={<><Blog /></>} />
-        <Route  path="/howtoinstall" element={<><Howtoinstall /></>} />
+        <Route  path="/guide" element={<><Howtoinstall /></>} />
         <Route  path="/contact" element={<><Contact /></>} />
 
         {/* services extended blogs */}
-        <Route  path="/blog/network" element={<><Network /></>} />
-        <Route  path="/blog/rfplanning" element={<><RfPlanning /></>} />
-        <Route  path="/blog/automation" element={<><Automation /></>} />
-        <Route  path="/blog/DataCentre" element={<><DataCentre /></>} />
-        <Route  path="/blog/networkoperation" element={<><NetworkOperations /></>} />
-        <Route  path="/blog/productOffer" element={<><ProductOffer /></>} />
-        <Route  path="/blog/resourceManage" element={<><ResourceManage /></>} />
-        <Route  path="/blog/rfOptimization" element={<><RfOptimisation /></>} />
-        <Route  path="/blog/solutionOffer" element={<><SolutionOffer /></>} />
-        <Route  path="/blog/transmissonPlan" element={<><TransmissionPlan /></>} />
+        <Route  path="/services/network" element={<><Network /></>} />
+        <Route  path="/services/rfplanning" element={<><RfPlanning /></>} />
+        <Route  path="/services/automation" element={<><Automation /></>} />
+        <Route  path="/services/DataCenter" element={<><DataCentre /></>} />
+        <Route  path="/services/DataCentre" element={<><DataCentre /></>} />
+        <Route  path="/services/networkoperation" element={<><NetworkOperations /></>} />
+        <Route  path="/services/productOffer" element={<><ProductOffer /></>} />
+        <Route  path="/services/resourceManage" element={<><ResourceManage /></>} />
+        <Route  path="/services/rfOptimization" element={<><RfOptimisation /></>} />
+        <Route  path="/services/solutionOffer" element={<><SolutionOffer /></>} />
+        <Route  path="/services/transmissonPlan" element={<><TransmissionPlan /></>} />
 
         {/* footer plan */}
         <Route  path="/ourpolicy" element={<><Ourpolicy /></>} />
@@ -44,14 +45,14 @@ const App = () => {
         
         {/* how to install */}
         {/* <Route  path="/howtoinstall/windows" element={<><Windows /></>} /> */}
-        <Route  path="/howtoinstall/mac/pyhthon-jinja" element={<><PythonMac /></>} />
-        <Route  path="/howtoinstall/mac/jupyer-notebook" element={<><JupyterMac /></>} />
-        <Route  path="/howtoinstall/mac/visual-studio-code" element={<><VsMac /></>} />
-        <Route  path="/howtoinstall/mac/run-first-code" element={<><RunMacFirst /></>} />
-        <Route  path="/howtoinstall/windows/pyhthon-jinja" element={<><PythonWin /></>} />
-        <Route  path="/howtoinstall/windows/jupyer-notebook" element={<><JupyterWin /></>} />
-        <Route  path="/howtoinstall/windows/visual-studio-code" element={<><VsWin /></>} />
-        <Route  path="/howtoinstall/windows/run-first-code" element={<><RunWinFirst /></>} />
+        <Route  path="/blog/mac/pyhthon-jinja" element={<><PythonMac /></>} />
+        <Route  path="/blog/mac/jupyer-notebook" element={<><JupyterMac /></>} />
+        <Route  path="/blog/mac/visual-studio-code" element={<><VsMac /></>} />
+        <Route  path="/blog/mac/run-first-code" element={<><RunMacFirst /></>} />
+        <Route  path="/blog/windows/pyhthon-jinja" element={<><PythonWin /></>} />
+        <Route  path="/blog/windows/jupyer-notebook" element={<><JupyterWin /></>} />
+        <Route  path="/blog/windows/visual-studio-code" element={<><VsWin /></>} />
+        <Route  path="/blog/windows/run-first-code" element={<><RunWinFirst /></>} />
 
       
       </Routes>

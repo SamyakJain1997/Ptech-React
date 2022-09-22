@@ -11,59 +11,53 @@ import './mainblog.css';
 const Blog = () => {
 
   return (
-    <div className="ptech__blog section__padding" id="blog">
+    <div className="ptech__blog section__padding" id="Blog">
       <div className="ptech__blog-heading">
         <div />
-        <h1 className="gradient__text">Installation Guide For Mac OS</h1>
+        <h1 className="gradient__text">Installation Guide</h1>
       </div>
       <div className="ptech__blog-container">
           <div className="button">
-            <a href="/howtoinstall/mac/pyhthon-jinja">
-              <Article imgUrl={mac1} heading="Install Python & JINJA" text="Step-by-step guide to install python & JINJA on MAC OS." />
+            <a href="/blog/mac/pyhthon-jinja">
+              <Article imgUrl={mac1} heading="Install Python JINJA MAC OS" text="" />
             </a>
           </div>
           <div className="button">
-            <a href="/howtoinstall/mac/jupyer-notebook">
-              <Article imgUrl={mac2} heading="Install JUPYTER Notebook" text="Step-by-step guide to install JUPYTER Notebook on MAC OS." />
+            <a href="/blog/mac/jupyer-notebook">
+              <Article imgUrl={mac2} heading="Install JUPYTER Notebook MAC OS" text="" />
             </a>
           </div>
           <div className="button">
-            <a href="/howtoinstall/mac/visual-studio-code">
-              <Article imgUrl={mac3} heading="Install Visual Studio Code" text="Step-by-step guide to install Visual Studio Code on MAC OS." />
+            <a href="/blog/mac/visual-studio-code">
+              <Article imgUrl={mac3} heading="Install VS Code  MAC OS" text="" />
             </a>
           </div>
           <div className="button">
-            <a href="/howtoinstall/mac/run-first-code">
-              <Article imgUrl={mac4} heading="Run Your First Code" text="Step-by-step guide to Run Your First Code on MAC OS." />
+            <a href="/blog/mac/run-first-code">
+              <Article imgUrl={mac4} heading="Run Your First Code  MAC OS" text="" />
             </a>
           </div>
       </div>
 <br />
-<br />
-<br />
-      <div className="ptech__blog-heading">
-        <div />
-        <h1 className="gradient__text">Installation Guide For Windows OS</h1>
-      </div>
       <div className="ptech__blog-container">
       <div className="button">
-            <a href="/howtoinstall/windows/pyhthon-jinja">
-              <Article imgUrl={win1} heading="Install Python & JINJA" text="Step-by-step guide to install python & JINJA on Windows Operating System." />
+            <a href="/blog/windows/pyhthon-jinja">
+              <Article imgUrl={win1} heading="Install Python JINJA Windows" text="" />
             </a>
           </div>
           <div className="button">
-            <a href="/howtoinstall/windows/jupyer-notebook">
-              <Article imgUrl={win2} heading="Install JUPYTER Notebook" text="Step-by-step guide to install JUPYTER Notebook on Windows Operating System." />
+            <a href="/blog/windows/jupyer-notebook">
+              <Article imgUrl={win2} heading="Install JUPYTER Windows" text="" />
             </a>
           </div>
           <div className="button">
-            <a href="/howtoinstall/windows/visual-studio-code">
-              <Article imgUrl={mac3} heading="Install Visual Studio Code" text="Step-by-step guide to install Visual Studio Code on Windows Operating System." />
+            <a href="/blog/windows/visual-studio-code">
+              <Article imgUrl={mac3} heading="Install VS Code Windows" text="" />
             </a>
           </div>
           <div className="button">
-            <a href="/howtoinstall/windows/run-first-code">
-              <Article imgUrl={mac4} heading="Run Your First Code" text="Step-by-step guide to Run Your First Code on Windows Operating System." />
+            <a href="/blog/windows/run-first-code">
+              <Article imgUrl={mac4} heading="Run Your First Code Windows" text="" />
             </a>
           </div>
       </div>

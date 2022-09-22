@@ -4,7 +4,7 @@ import './rfoptimisation.css';
 
 const RfOptimization = () => {
   return (
-    <div className="rfoptimisation_description-banner" id="blog/RfOptimization">
+    <div className="rfoptimisation_description-banner" id="services/RfOptimization">
         <div className="rfoptimisation_data">
           <div className="rfoptimisation-position-relative">
             <img className="rfoptimisation_image" src="https://ptechindia.in/pics/blog03.jpeg" alt="Network Descriptiom" />

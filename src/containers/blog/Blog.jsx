@@ -13,52 +13,52 @@ const Blog = () => {
       </div>
       <div className="ptech__blog-container">
           <div className="button">
-            <a href="/blog/Network">
+            <a href="/services/Network">
               <Article imgUrl={blog001} heading="Network Design & Implementation" text="Operator facing challenges are extensive and unavoidable." />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/Rfplanning">
+            <a href="/services/Rfplanning">
               <Article imgUrl={blog002} heading="RF Planning & Designing" text="PTech’s resources are well trained to use state-of-the-art industry standard tools." />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/RfOptimization">
+            <a href="/services/RfOptimization">
               <Article imgUrl={blog003} heading="RF Optimization & Drive Test" text="High quality of service in mobile networks is the prerequisite for the commercial success." />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/Networkoperation">
+            <a href="/services/Networkoperation">
               <Article imgUrl={blog004} heading="Network Operations Services" text="Network performance is a measure of how effectively and efficiently the network is functioning." />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/TransmissonPlan">
+            <a href="/services/TransmissonPlan">
               <Article imgUrl={blog005} heading="Transmission Planning Services" text="Transmission network planning covers definition of the whole network topology, technology selections." />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/ResourceManage">
+            <a href="/services/ResourceManage">
               <Article imgUrl={blog006} heading="Resource Management" text="P TECH provides placement and deployment of manpower services." />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/Automation">
+            <a href="/services/Automation">
               <Article imgUrl={blog007} heading="Automation Solutions" text="Having the best talent is a competitive advantage in today’s demanding and complex world. " />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/DataCenter">
+            <a href="/services/DataCenter">
               <Article imgUrl={blog008} heading="Data Center Design & Solutions" text="Having the best talent is a competitive advantage in today’s demanding and complex world." />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/SolutionOffer">
+            <a href="/services/SolutionOffer">
               <Article imgUrl={blog009} heading="Solution Offerings" text="Having the best talent is a competitive advantage in today’s demanding and complex world. " />
             </a>
           </div>
           <div className="button">
-            <a href="/blog/ProductOffer">
+            <a href="/services/ProductOffer">
               <Article imgUrl={blog010} heading="Product Offerings" text="Having the best talent is a competitive advantage in today’s demanding and complex world. " />
             </a>
           </div>

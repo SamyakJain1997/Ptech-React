@@ -4,7 +4,7 @@ import './rfplanning.css';
 
 const rfplanning = () => {
   return (
-      <div className="rfplanning_description-banner" id="blog/rfplanning">
+      <div className="rfplanning_description-banner" id="services/rfplanning">
         <div className="rfplanning_data">
           <div className="rfplanning-position-relative">
             <img className="rfplanning_image" src="https://ptechindia.in/pics/blog02.jpeg" alt="Network Descriptiom" />

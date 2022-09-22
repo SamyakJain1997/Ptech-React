@@ -13,21 +13,22 @@
 
 .rfoptimisation_description-banner caption p h1 {
     display: flex;
-    /* flex-direction: column;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     position: absolute;
-    font-size: 75px;
-    font-weight: 500;
-    line-height: 90px;
-    top: 40%;
-    left: 3%;
-    transform: translate(0%, -50%);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, 0%);
     text-align: center;
     color: #ffffff;
+    min-width: 95%;
     border-radius: 5px;
     background-color: hsla(223, 81%, 27%, 0.5);
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .rfoptimisation_description_data {
@@ -73,10 +74,10 @@
     background-color: rgb(29, 36, 137, 0.8);
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1250px) {
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 65px;
-        line-height: 85px;
+        font-size: 55px;
+        line-height: 65px;
 
     }
 }
@@ -87,24 +88,25 @@
     }
 
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 55px;
-        top: 35%;
-        line-height: 90px;
+        font-size: 45px;
+        bottom: 38%;
+        /* left: 50%; */
+        line-height: 55px;
         letter-spacing: 3px;
         font-weight: 500;
-        left: 3%;
+        /* left: 3%; */
     }
 }
 
 
 @media screen and (max-width: 980px) {
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 45px;
-        top: 35%;
-        line-height: 80px;
+        font-size: 40px;
+        bottom: 38%;
+        line-height: 60px;
         letter-spacing: 3px;
         font-weight: 500;
-        left: 3%;
+
     }
 
     .rfoptimisation-des-container {
@@ -132,12 +134,11 @@
     }
 
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 45px;
-        top: 31%;
+        font-size: 35px;
+        bottom: 48%;
         line-height: 70px;
         letter-spacing: 3px;
         font-weight: 500;
-        left: 3%;
     }
 
     .rfoptimisation-des-container {
@@ -149,12 +150,11 @@
 
 @media screen and (max-width: 780px) {
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 40px;
-        top: 31%;
-        line-height: 70px;
+        font-size: 30px;
+        bottom: 48%;
+        line-height: 50px;
         letter-spacing: 3px;
         font-weight: 500;
-        left: 3%;
     }
 
     .rfoptimisation-des-container {
@@ -178,12 +178,12 @@
 
 @media screen and (max-width: 700px) {
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 30px;
-        top: 30%;
-        line-height: 60px;
+        font-size: 31px;
+        bottom: 48%;
+        line-height: 50px;
         letter-spacing: 2px;
         font-weight: 500;
-        left: 3%;
+
     }
 
     .rfoptimisation_description_data {
@@ -205,12 +205,11 @@
     }
 
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 25px;
-        top: 28%;
+        font-size: 22px;
+        bottom: 53%;
         line-height: 50px;
         letter-spacing: 2px;
         font-weight: 400;
-        left: 3%;
     }
 
     .rfoptimisation_description_data {
@@ -232,12 +231,11 @@
     }
 
     .rfoptimisation_description-banner caption p h1 {
-        font-size: 20px;
-        top: 25%;
-        line-height: 50px;
+        font-size: 19px;
+        bottom: 56%;
+        line-height: 30px;
         letter-spacing: 2px;
         font-weight: 400;
-        left: 3%;
     }
 
     .rfoptimisation_description_data {

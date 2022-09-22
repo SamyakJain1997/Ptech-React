@@ -4,12 +4,12 @@ import './network.css';
 
 const Network = () => {
   return (
-<div className="network_description-banner" id="blog/Automation">
+<div className="network_description-banner" id="services/Automation">
         <div className="network_data">
           <div className="network-position-relative">
             <img className="network_image" src="https://ptechindia.in/pics/blog01.jpeg" alt="Network Descriptiom" />
               <div>
-                <caption><p><h1 className="text">Network Implementation</h1></p></caption>
+                <caption><p><h1 className="text">Network Design & Implementation</h1></p></caption>
               </div>
           </div>
           <div className="network_description_data">

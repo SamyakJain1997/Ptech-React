@@ -4,7 +4,7 @@ import './datacentre.css';
 
 const DataCenter = () => {
   return (
-   <div className="datacentre_description-banner" id="blog/DataCenter">
+   <div className="datacentre_description-banner" id="services/DataCentre">
         <div className="datacentre_data">
           <div className="datacentre-position-relative">
             <img className="datacentre_image" src="https://ptechindia.in/pics/blog08.jpeg" alt="Network Descriptiom" />
